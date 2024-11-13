@@ -7,19 +7,20 @@ website:
     background: primary
     search: true
     left:
-      - text: "Home"
-        href: index.qmd
       - text: "About"
         href: about.qmd 
-      - resume-cv.qmd
-      - portfolio.qmd
-      - resources.qmd
+      - text: "Resume/CV"
+        href: resume-cv.qmd
+      - text: "Portfolio"
+        href: portfolio.qmd
+      - text: "Resources"
+        href: resources.qmd
 
 format:
   html:
     theme: litera
     css: bootstrap.css
-    toc: true
+    toc: false
 
 editor: visual
 

@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Lois Adler-Johnson"
 about:
   template: trestles
   image: headshot.jpg
@@ -10,11 +10,14 @@ about:
     - icon: github  
       text: Github
       href: https://github.com/joislohnson
+    - text: Google Scholar
+      icon: '{{{< ai google-scholar >}}}'
+      href: https://scholar.google.com/citations?hl=en&user=2ZLHHkEAAAAJ
 ---
 
 Welcome! I'm Lois.
 
-I describe myself as a public health data scientist with a unique blend of engineering, statistics, and epidemiology expertise. I have a particular interest in advancing violence prevention research and practice. In my current role as a **Data Analyst & Advisor** at the [North Carolina Institute for Public Health](https://sph.unc.edu/nciph/nciph-home/), I apply advanced quantitative analysis skills to investigate and address health inequities in North Carolina.
+I describe myself as a public health data scientist with a unique blend of engineering, statistics, and epidemiology expertise. I have a particular interest in advancing violence prevention research and practice. In my current role as a Data Analyst & Advisor at the [North Carolina Institute for Public Health](https://sph.unc.edu/nciph/nciph-home/), I apply advanced quantitative analysis skills to investigate and address health inequities in North Carolina.
 
 I'm an unapologetic promoter of open-source software in the field of public health and a part-time baker at a local grain farm.
 
