@@ -16,6 +16,15 @@ website:
         href: portfolio.qmd
       - text: "Resources"
         href: resources.qmd
+    right:
+      - text: "{{< iconify mdi:linkedin >}}"
+        href: https://www.linkedin.com/in/loiscjohnson/
+      - text: "{{< iconify mdi:github >}}"
+        href: https://github.com/joislohnson
+      - text: "{{< iconify ri:bluesky-fill >}}"
+        href: https://bsky.app/profile/lois-aj.bsky.social
+      - text: "{{< iconify simple-icons:googlescholar >}}"
+        href: https://scholar.google.com/citations?hl=en&user=2ZLHHkEAAAAJ
 
 format:
   html:
