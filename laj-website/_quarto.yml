@@ -20,7 +20,7 @@ website:
 format:
   html:
     theme: litera
-    css: bootstrap.css
+    css: styles.css
     toc: false
 
 editor: visual
