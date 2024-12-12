@@ -12,6 +12,8 @@ about:
       href: https://bsky.app/profile/lois-aj.bsky.social
     - text: "{{< iconify simple-icons:googlescholar >}} Google Scholar"
       href: https://scholar.google.com/citations?hl=en&user=2ZLHHkEAAAAJ
+    - text:  "{{< iconify ic:outline-email >}} Email"
+      href: mailto:lois.c.johnson+website@gmail.com
 ---
 
 Welcome! I'm Lois.

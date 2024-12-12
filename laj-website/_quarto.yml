@@ -25,6 +25,8 @@ website:
         href: https://bsky.app/profile/lois-aj.bsky.social
       - text: "{{< iconify simple-icons:googlescholar >}}"
         href: https://scholar.google.com/citations?hl=en&user=2ZLHHkEAAAAJ
+      - text:  "{{< iconify ic:outline-email >}}"
+        href: mailto:lois.c.johnson+site@gmail.com
 
 format:
   html:
