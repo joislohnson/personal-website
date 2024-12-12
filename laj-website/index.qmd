@@ -1,0 +1,29 @@
+---
+title: "Lois Adler-Johnson"
+about:
+  template: trestles
+  image: "files/headshot.jpg"
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: www.linkedin.com/in/loiscjohnson
+    - icon: github  
+      text: Github
+      href: https://github.com/joislohnson
+    - text: Google Scholar
+      icon: '{{< iconify fa6-brands github >}}'
+      href: https://scholar.google.com/citations?hl=en&user=2ZLHHkEAAAAJ
+---
+Welcome! I'm Lois.
+
+I describe myself as a public health data scientist with a unique blend of engineering, statistics, and epidemiology expertise. I'm a skilled creative problem solver and I love to collaboratively tackle complex, multi-faceted issues. I'm a promoter of open-source software in the field of public health, and I'm particularly passionate about building quantitative data capacity and confidence among people without technical backgrounds.
+
+In my current role as a Data Analyst & Advisor at the [North Carolina Institute for Public Health](https://sph.unc.edu/nciph/nciph-home/), I apply advanced quantitative analysis skills to investigate and address health inequities in North Carolina. 
+
+Outside of my data endeavors, I'm a part-time baker at a [local grain farm](https://redtailgrains.com/) and I run a fiction book club ([join us](https://bookclubs.com/clubs/6021809/join/55cabb/)!). On any given day, you can find me walking and snuggling with my dogs, trying new recipes, and working on a range of creative projects.
+
+## Education
+
+**University of North Carolina at Chapel Hill** \| MPH in Applied Epidemiology
+
+**Georgia Institute of Technology** \| B.S. in Industrial & Systems Engineering \| Concentration in Quality & Statistics
