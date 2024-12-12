@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   navbar:
@@ -8,7 +9,7 @@ website:
     search: true
     left:
       - text: "About"
-        href: about.qmd 
+        href: index.qmd 
       - text: "Resume/CV"
         href: resume-cv.qmd
       - text: "Portfolio"
