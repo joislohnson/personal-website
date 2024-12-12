@@ -8,10 +8,10 @@ about:
       href: www.linkedin.com/in/loiscjohnson
     - text: "{{< iconify mdi:github >}} GitHub"
       href: https://github.com/joislohnson
-    - text: "{{< iconify simple-icons:googlescholar >}} Google Scholar"
-      href: https://scholar.google.com/citations?hl=en&user=2ZLHHkEAAAAJ
     - text: "{{< iconify ri:bluesky-fill >}} Bluesky"
       href: https://bsky.app/profile/lois-aj.bsky.social
+    - text: "{{< iconify simple-icons:googlescholar >}} Google Scholar"
+      href: https://scholar.google.com/citations?hl=en&user=2ZLHHkEAAAAJ
 ---
 
 Welcome! I'm Lois.
