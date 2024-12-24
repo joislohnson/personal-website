@@ -1,0 +1,20 @@
+{
+  "portfolio.qmd": {
+    "portfolio.html": "a8507e01"
+  },
+  "index.qmd": {
+    "index.html": "83fee071"
+  },
+  "resume-cv.qmd": {
+    "resume-cv.html": "641dcc60"
+  },
+  "resources.qmd": {
+    "resources.html": "a6c57c70"
+  },
+  "posts.qmd": {
+    "posts.html": "fb693578"
+  },
+  "posts/2024-12-24-svi-analysis/index.qmd": {
+    "index.html": "3f6bfe89"
+  }
+}
