@@ -13,7 +13,7 @@ website:
       - text: "Resume/CV"
         href: resume-cv.qmd
       - text: "Portfolio"
-        href: portfolio.qmd
+        href: posts.qmd
       - text: "Resources"
         href: resources.qmd
     right:

@@ -4,7 +4,7 @@
     "href": "resume-cv.html",
     "title": "Resume/CV",
     "section": "",
-    "text": "Download PDF file."
+    "text": "Download PDF File\n   \n    Unable to display PDF file. Download instead."
   },
   {
     "objectID": "about.html",
@@ -44,6 +44,13 @@
   {
     "objectID": "portfolio.html",
     "href": "portfolio.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
     "title": "Portfolio",
     "section": "",
     "text": "No matching items"
