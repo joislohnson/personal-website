@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Wake County SVI Analysis\n\n\n\nQuarto\n\n\nR\n\n\nMapping\n\n\n\n\n\n\n\nLois Adler-Johnson\n\n\nDec 24, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2024-12-24-svi-analysis/index.html",
+    "href": "posts/2024-12-24-svi-analysis/index.html",
+    "title": "Wake County SVI Analysis",
+    "section": "",
+    "text": "I recently investigated a subset of Social Vulnerability Index (SVI) data from CDC/ATSDR for Wake County, NC. I’m working on building my mapping skills in R, so this project felt like a great opportunity to play around with the tigris and sf packages."
+  },
+  {
+    "objectID": "posts/2024-12-24-svi-analysis/index.html#key-insight",
+    "href": "posts/2024-12-24-svi-analysis/index.html#key-insight",
+    "title": "Wake County SVI Analysis",
+    "section": "Key Insight",
+    "text": "Key Insight\nWake County is divided into 8 service zones. This map shows that the most socially vulnerable communities are clustered together, concentrated in the East Central service zone and nearby tracts on the borders of the North Central, South Central, and West Central service zones. On the other hand, the least socially vulnerable communities are more distinctly spread across the county in the Northern, North Central, West, and South Central service zones. We can use this information to help inform which tracts and service zones county-level investments should go to."
+  },
+  {
+    "objectID": "posts/2024-12-24-svi-analysis/index.html#key-insight-1",
+    "href": "posts/2024-12-24-svi-analysis/index.html#key-insight-1",
+    "title": "Wake County SVI Analysis",
+    "section": "Key Insight",
+    "text": "Key Insight\nOf the 10 tracts identified as the most socially vulnerable areas, 4 are designated Opportunity Zones by the city of Raleigh. This overlap suggests the initiative is targeting areas with high social vulnerability, but could do better. Expanding Opportunity Zone tract eligibility beyond poverty and income measures could lead to improved social vulnerability among communities that have been historically marginalized. Policymakers should consider additional investment incentive programs for communities with lower rates of educational attainment and higher rates of severe housing problems, for example."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Lois Adler-Johnson",
+    "section": "",
+    "text": "Welcome! I’m Lois.\nI describe myself as a public health data scientist with a unique blend of engineering, statistics, and epidemiology expertise. I’m a skilled creative problem solver and I love to collaboratively tackle complex, multi-faceted issues. I’m a promoter of open-source software in the field of public health, and I’m particularly passionate about building quantitative data capacity and confidence among people without technical backgrounds.\nIn my current role as a Data Analyst & Advisor at the North Carolina Institute for Public Health, I apply advanced quantitative analysis skills to investigate and address health inequities in North Carolina.\nOutside of my data endeavors, I’m a part-time baker at a local grain farm and I run a fiction book club (join us!). On any given day, you can find me walking and snuggling with my dogs, trying new recipes, and working on a range of creative projects."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Lois Adler-Johnson",
+    "section": "Education",
+    "text": "Education\nUniversity of North Carolina at Chapel Hill | MPH in Applied Epidemiology\nGeorgia Institute of Technology | B.S. in Industrial & Systems Engineering | Concentration in Quality & Statistics"
+  },
+  {
+    "objectID": "resume-cv.html",
+    "href": "resume-cv.html",
+    "title": "Resume/CV",
+    "section": "",
+    "text": "Download PDF File\n   \n    Unable to display PDF file. Download instead."
+  }
+]
