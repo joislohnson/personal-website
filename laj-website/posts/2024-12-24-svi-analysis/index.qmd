@@ -14,7 +14,7 @@ toc: true
 # citation: 
 #   url: 
 #image: preview-image.png
-draft: true # setting this to `true` will prevent your post from appearing on your listing page until you're ready
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready
 ---
 
 # Overview
@@ -29,8 +29,7 @@ Load necessary packages to use functions throughout the document.
 #| output: false
 library(tidyverse) # data wrangling
 library(janitor) # clean up
-library(labelled) # variable labels; compatible with dplyr 
-library(readxl) # reading in excel files
+library(labelled) # variable labels
 library(scales) # scaling functions for visualization
 library(openxlsx) # xslx reading
 library(expss) # labels
@@ -41,6 +40,7 @@ library(ggmap) # spatial viz
 library(ggthemes) # ggplot themes
 library(GGally) # ggplot2 extension
 library(grateful) # package citations
+library(knitr)
 ```
 
 # Import Data
@@ -230,7 +230,6 @@ map_with_labels <- map_with_zones +
     plot.caption = element_text(size = 10, face = "italic", hjust=0, vjust=1))
 
 map_with_labels
-
 ```
 
 ## Key Insight
@@ -297,9 +296,17 @@ map_with_labels <- map_with_zones +
     plot.caption = element_text(size = 10, face = "italic", hjust=0, vjust=1))
 
 map_with_labels
-
 ```
 
 ## Key Insight
 
 Of the 10 tracts identified as the most socially vulnerable areas, **4** are designated Opportunity Zones by the city of Raleigh. This overlap suggests the initiative is targeting areas with high social vulnerability, but could do better. **Expanding Opportunity Zone tract eligibility beyond poverty and income measures could lead to improved social vulnerability among communities that have been historically marginalized.** Policymakers should consider additional investment incentive programs for communities with lower rates of educational attainment and higher rates of severe housing problems, for example.
+
+# Citations
+
+```{r}
+# Add packages used to bibliography
+cite_packages(output = "table", out.dir = ".") %>% kable()
+
+#knitr::kable(pkgs)
+```

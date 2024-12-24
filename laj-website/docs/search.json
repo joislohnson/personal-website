@@ -53,6 +53,34 @@
     "href": "posts.html",
     "title": "Portfolio",
     "section": "",
-    "text": "No matching items"
+    "text": "Wake County SVI Analysis\n\n\n\nQuarto\n\n\nR\n\n\nMapping\n\n\n\n\n\n\n\nLois Adler-Johnson\n\n\nDec 24, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2024-12-24-svi-analysis/index.html",
+    "href": "posts/2024-12-24-svi-analysis/index.html",
+    "title": "Wake County SVI Analysis",
+    "section": "",
+    "text": "I recently investigated a subset of Social Vulnerability Index (SVI) data from CDC/ATSDR for Wake County, NC. I’m working on building my mapping skills in R, so this project felt like a great opportunity to play around with the tigris and sf packages."
+  },
+  {
+    "objectID": "posts/2024-12-24-svi-analysis/index.html#key-insight",
+    "href": "posts/2024-12-24-svi-analysis/index.html#key-insight",
+    "title": "Wake County SVI Analysis",
+    "section": "Key Insight",
+    "text": "Key Insight\nWake County is divided into 8 service zones. This map shows that the most socially vulnerable communities are clustered together, concentrated in the East Central service zone and nearby tracts on the borders of the North Central, South Central, and West Central service zones. On the other hand, the least socially vulnerable communities are more distinctly spread across the county in the Northern, North Central, West, and South Central service zones. We can use this information to help inform which tracts and service zones county-level investments should go to."
+  },
+  {
+    "objectID": "posts/2024-12-24-svi-analysis/index.html#key-insight-1",
+    "href": "posts/2024-12-24-svi-analysis/index.html#key-insight-1",
+    "title": "Wake County SVI Analysis",
+    "section": "Key Insight",
+    "text": "Key Insight\nOf the 10 tracts identified as the most socially vulnerable areas, 4 are designated Opportunity Zones by the city of Raleigh. This overlap suggests the initiative is targeting areas with high social vulnerability, but could do better. Expanding Opportunity Zone tract eligibility beyond poverty and income measures could lead to improved social vulnerability among communities that have been historically marginalized. Policymakers should consider additional investment incentive programs for communities with lower rates of educational attainment and higher rates of severe housing problems, for example."
+  },
+  {
+    "objectID": "posts/2024-12-24-svi-analysis/index.html#citations",
+    "href": "posts/2024-12-24-svi-analysis/index.html#citations",
+    "title": "Wake County SVI Analysis",
+    "section": "Citations",
+    "text": "Citations\n\n\nCode\n# Add packages used to bibliography\ncite_packages(output = \"paragraph\", out.dir = \".\")\n\n\nWe used R version 4.4.2 (R Core Team 2024) and the following R packages: expss v. 0.11.6 (Demin 2023), funchir v. 0.2.2 (Chirico 2022), GGally v. 2.2.1 (Schloerke et al. 2024), ggmap v. 4.0.0 (Kahle and Wickham 2013), ggthemes v. 5.1.0 (Arnold 2024), janitor v. 2.2.0 (Firke 2023), labelled v. 2.13.0 (Larmarange 2024), openxlsx v. 4.2.5.2 (Schauberger and Walker 2023), rmarkdown v. 2.27 (Xie, Allaire, and Grolemund 2018; Xie, Dervieux, and Riederer 2020; Allaire et al. 2024), scales v. 1.3.0 (Wickham, Pedersen, and Seidel 2023), sf v. 1.0.19 (Pebesma 2018; Pebesma and Bivand 2023), tidycensus v. 1.6.7 (Walker and Herman 2024), tidyverse v. 2.0.0 (Wickham et al. 2019), tigris v. 2.1 (Walker 2024)."
   }
 ]

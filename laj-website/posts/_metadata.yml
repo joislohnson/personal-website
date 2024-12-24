@@ -5,3 +5,6 @@ freeze: auto
 
 # enable banner style title blocks ----
 title-block-banner: true
+
+# cite R packages used in analyses ----
+bibliography: grateful-refs.bib
