@@ -20,3 +20,12 @@
 .navbar .navbar-brand:hover {
   color: #0056b3; /* Adjust the hover color for the brand name if needed */
 }
+
+a {
+  color: #1d91c0; /* Default link color */
+  text-decoration: none; /* Remove underline */
+}
+a:hover {
+  color: #0056b3; /* Hover color */
+  text-decoration: underline; /* Underline on hover */
+}
