@@ -5,7 +5,7 @@ format:
     toc: true
 ---
 
-Here are some lists I've compiled of my most referenced and shared resources:
+Here are some of my most referenced and shared resources:
 
 ## Data Democratization & Data Equity
 
@@ -19,14 +19,6 @@ Here are some lists I've compiled of my most referenced and shared resources:
 -   [**Equitable Evaluation Framework**](https://www.equitableeval.org/framework) developed by the Equitable Evaluation Initiative
 -   [**On Racism: A New Standard for Publishing On Racial Health Inequities**](https://www.healthaffairs.org/do/10.1377/forefront.20200630.939347/) authored by Rhea Boyd
 
-## R
-
--   [**Epidemiologist R Handbook**](https://epirhandbook.com/en/) by Neale Batra et al. at Applied Epi
--   [**Advanced R**](https://adv-r.hadley.nz/) by Hadley Wickham
--   [**Big Book of R**](https://www.bigbookofr.com/) by Oscar Baruffa
--   [**R for Data Science (2nd Edition)**](https://r4ds.hadley.nz/) by Hadley Wickham, Mine Cetinkaya-Rundel, and Garrett Grolemund
--   [**Cheatsheets**](https://posit.co/blog/cheat-sheet-updates/) by Posit
-
 ## Data Visualization
 
 -   [**Do No Harm Guide: Applying Equity Awareness in Data Visualization**](https://www.urban.org/research/publication/do-no-harm-guide-applying-equity-awareness-data-visualization) developed by Urban Institute
@@ -34,6 +26,14 @@ Here are some lists I've compiled of my most referenced and shared resources:
 -   [**ColorBrewer**](https://colorbrewer2.org) developed by Cynthia Brewer and Mark Harrower
 -   [**Accessibility and Visualization**](https://www.youtube.com/watch?v=KVisPxjgdtU) by Frank Elavsky
 -   [**Chartability**](https://www.frank.computer/chartability/) by Frank Elavsky, Cynthia Bennett, and Dominik Moritz
+
+## R
+
+-   [**Epidemiologist R Handbook**](https://epirhandbook.com/en/) by Neale Batra et al. at Applied Epi
+-   [**Advanced R**](https://adv-r.hadley.nz/) by Hadley Wickham
+-   [**Big Book of R**](https://www.bigbookofr.com/) by Oscar Baruffa
+-   [**R for Data Science (2nd Edition)**](https://r4ds.hadley.nz/) by Hadley Wickham, Mine Cetinkaya-Rundel, and Garrett Grolemund
+-   [**Cheatsheets**](https://posit.co/blog/cheat-sheet-updates/) by Posit
 
 ## Code Style
 
