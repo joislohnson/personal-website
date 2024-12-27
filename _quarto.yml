@@ -30,7 +30,6 @@ website:
 
 format:
   html:
-    #theme: litera
     theme: zephyr
     css: styles.css
     toc: false

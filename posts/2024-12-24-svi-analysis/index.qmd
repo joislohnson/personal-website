@@ -1,18 +1,15 @@
 ---
 title: "Wake County SVI Analysis"
-# description: "blog post description (appears underneath the title in smaller text) which is included on the listing page"
+description: "Mapping geographic disparities in social vulnerability factors in Wake County, NC."
 author:
   - name: Lois Adler-Johnson
-  #  url: 
-  #  orcid: 0000-0002-0959-1703
 date: 12-24-2024
-categories: [Quarto, R, Mapping] # self-defined categories
+categories: [Quarto, R, Mapping]
 format: 
   html:
    code-fold: true
+   title-block-banner: "#1d91c0"
 toc: true
-# citation: 
-#   url: 
 #image: preview-image.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready
 ---
