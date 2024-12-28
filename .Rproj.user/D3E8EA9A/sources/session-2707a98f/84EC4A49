@@ -3,7 +3,7 @@
     "path": "~/Documents/personal-website/styles.css",
     "project_path": "styles.css",
     "type": "css",
-    "hash": "722277671",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1735338898456.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "30,1",
-        "scrollLine": "13"
+        "cursorPosition": "2,28",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1735339443,
+    "lastKnownWriteTime": 1735425003,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1735339443374,
+    "last_content_update": 1735425003115,
     "read_only": false,
     "read_only_alternatives": []
 }

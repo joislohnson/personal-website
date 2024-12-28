@@ -3,7 +3,7 @@
     "path": "~/Documents/personal-website/posts/2024-12-24-svi-analysis/index.qmd",
     "project_path": "posts/2024-12-24-svi-analysis/index.qmd",
     "type": "quarto_markdown",
-    "hash": "2413636609",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1735338234185.0,
@@ -18,14 +18,14 @@
         "rmdVisualWrapConfigured": "true",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "292:6.81818151473999"
+        "rmdVisualModeLocation": "292:35"
     },
     "folds": "",
-    "lastKnownWriteTime": 1735338910,
+    "lastKnownWriteTime": 1735425138,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1735338910467,
+    "last_content_update": 1735425138612,
     "read_only": false,
     "read_only_alternatives": []
 }

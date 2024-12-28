@@ -1,24 +1,21 @@
 /* css styles */
 .navbar {
-  background-color: #c7e9b4; /* Adjust the background color */
+  background-color: #1d91c0;
 }
-.navbar .nav-link.active {
-  color: #ffffff; /* Adjust this color to match your desired active link color */
-  background-color: #1d91c0; /* Optional: Add a background color for better visibility */
-}
+
 .navbar .nav-link:hover {
-  color: #0056b3; /* Adjust the hover color if needed */
+  color: #edf8b1;
 }
 
 .navbar .nav-link {
-  color: #252525; /* Adjust the link color */
+  color: #ffffff;
 }
 
 .navbar .navbar-brand {
-  color: #252525; /* Ensure the brand name matches the link color */
+  color: #ffffff;
 }
 .navbar .navbar-brand:hover {
-  color: #0056b3; /* Adjust the hover color for the brand name if needed */
+  color: #edf8b1; /* Adjust the hover color for the brand name if needed */
 }
 
 a {
