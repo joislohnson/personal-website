@@ -20,7 +20,7 @@
 
 a {
   color: #1d91c0; /* Default link color */
-  text-decoration: none; /* Remove underline */
+ /* text-decoration: none; /* Remove underline */
 }
 a:hover {
   color: #0056b3; /* Hover color */

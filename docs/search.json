@@ -53,7 +53,7 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "Here are some of my most referenced and shared resources:"
+    "text": "Here are some my most referenced and shared resources. These lists are always evolving and I welcome recommended additions!"
   },
   {
     "objectID": "resources.html#best-practices",
@@ -67,27 +67,27 @@
     "href": "resources.html#data-democratization-data-equity",
     "title": "Resources",
     "section": "Data Democratization & Data Equity",
-    "text": "Data Democratization & Data Equity\n\nPrinciples for Using Public Health Data to Drive Equity developed by CDC Foundation\nA Toolkit for Centering Racial Equity Throughout Data Integration developed by Actionable Intelligence for Social Policy\nA Health Equity Framework developed by the Massachusetts Health Policy Commission\nCharting a Course for an Equity-Centered Data System developed by the Robert Wood Johnson Foundation\nData Commitment and Principles developed by the Denver Public Health Department\nData Democratization: The Unsung Hero Of Health Equity developed by Health Leads\nHealth Data Governance Principles developed by Transform Health\nEquitable Evaluation Framework developed by the Equitable Evaluation Initiative\nOn Racism: A New Standard for Publishing On Racial Health Inequities authored by Rhea Boyd"
+    "text": "Data Democratization & Data Equity\n\nPrinciples for Using Public Health Data to Drive Equity\nA Toolkit for Centering Racial Equity Throughout Data Integration\nA Health Equity Framework\nCharting a Course for an Equity-Centered Data System\nData Commitment and Principles\nData Democratization: The Unsung Hero Of Health Equity\nHealth Data Governance Principles\nEquitable Evaluation Framework\nOn Racism: A New Standard for Publishing On Racial Health Inequities"
   },
   {
     "objectID": "resources.html#r",
     "href": "resources.html#r",
     "title": "Resources",
     "section": "R",
-    "text": "R\n\nEpidemiologist R Handbook by Neale Batra et al. at Applied Epi\nAdvanced R by Hadley Wickham\nBig Book of R by Oscar Baruffa\nR for Data Science (2nd Edition) by Hadley Wickham, Mine Cetinkaya-Rundel, and Garrett Grolemund\nCheatsheets by Posit"
+    "text": "R\n\nEpidemiologist R Handbook\nAdvanced R\nBig Book of R\nR for Data Science (2nd Edition)\nCheatsheets"
   },
   {
     "objectID": "resources.html#data-visualization",
     "href": "resources.html#data-visualization",
     "title": "Resources",
     "section": "Data Visualization",
-    "text": "Data Visualization\n\nDo No Harm Guide: Applying Equity Awareness in Data Visualization developed by Urban Institute\nPowering Health Equity Action with Online Data Tools: 10 Design Principles developed by PolicyLink and Ecotrust\nColorBrewer developed by Cynthia Brewer and Mark Harrower\nAccessibility and Visualization by Frank Elavsky\nChartability by Frank Elavsky, Cynthia Bennett, and Dominik Moritz"
+    "text": "Data Visualization\n\nDo No Harm Guide: Applying Equity Awareness in Data Visualization\nPowering Health Equity Action with Online Data Tools: 10 Design Principles\nColorBrewer\nAccessibility and Visualization\nChartability"
   },
   {
     "objectID": "resources.html#code-style",
     "href": "resources.html#code-style",
     "title": "Resources",
     "section": "Code Style",
-    "text": "Code Style\n\nnaming things by Jenny Bryan"
+    "text": "Code Style\n\nnaming things"
   }
 ]
