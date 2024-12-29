@@ -5,36 +5,36 @@ format:
     toc: true
 ---
 
-Here are some of my most referenced and shared resources:
+Here are some my most referenced and shared resources. These lists are always evolving and I welcome recommended additions!
 
 ## Data Democratization & Data Equity
 
--   [**Principles for Using Public Health Data to Drive Equity**](https://www.cdcfoundation.org/data-equity-principles?inline) developed by CDC Foundation
--   [**A Toolkit for Centering Racial Equity Throughout Data Integration**](https://www.aecf.org/resources/a-toolkit-for-centering-racial-equity-within-data-integration) developed by Actionable Intelligence for Social Policy
--   [**A Health Equity Framework**](https://www.mass.gov/doc/health-equity-framework-compendium/download) developed by the Massachusetts Health Policy Commission
--   [**Charting a Course for an Equity-Centered Data System**](https://www.rwjf.org/en/insights/our-research/2021/10/charting-a-course-for-an-equity-centered-data-system.html) developed by the Robert Wood Johnson Foundation
--   [**Data Commitment and Principles**](https://www.phidenverhealth.org/about-us/health-equity/data-commitment-and-principles) developed by the Denver Public Health Department
--   [**Data Democratization: The Unsung Hero Of Health Equity**](https://healthleadsusa.org/communications-center/blog/data-democratization-the-unsung-hero-of-health-equity) developed by Health Leads
--   [**Health Data Governance Principles**](https://www.healthdataprinciples.org/principles) developed by Transform Health
--   [**Equitable Evaluation Framework**](https://www.equitableeval.org/framework) developed by the Equitable Evaluation Initiative
--   [**On Racism: A New Standard for Publishing On Racial Health Inequities**](https://www.healthaffairs.org/do/10.1377/forefront.20200630.939347/) authored by Rhea Boyd
+-   [Principles for Using Public Health Data to Drive Equity](https://www.cdcfoundation.org/data-equity-principles?inline)
+-   [A Toolkit for Centering Racial Equity Throughout Data Integration](https://www.aecf.org/resources/a-toolkit-for-centering-racial-equity-within-data-integration)
+-   [A Health Equity Framework](https://www.mass.gov/doc/health-equity-framework-compendium/download)
+-   [Charting a Course for an Equity-Centered Data System](https://www.rwjf.org/en/insights/our-research/2021/10/charting-a-course-for-an-equity-centered-data-system.html)
+-   [Data Commitment and Principles](https://www.phidenverhealth.org/about-us/health-equity/data-commitment-and-principles)
+-   [Data Democratization: The Unsung Hero Of Health Equity](https://healthleadsusa.org/communications-center/blog/data-democratization-the-unsung-hero-of-health-equity)
+-   [Health Data Governance Principles](https://www.healthdataprinciples.org/principles)
+-   [Equitable Evaluation Framework](https://www.equitableeval.org/framework)
+-   [On Racism: A New Standard for Publishing On Racial Health Inequities](https://www.healthaffairs.org/do/10.1377/forefront.20200630.939347/)
 
 ## Data Visualization
 
--   [**Do No Harm Guide: Applying Equity Awareness in Data Visualization**](https://www.urban.org/research/publication/do-no-harm-guide-applying-equity-awareness-data-visualization) developed by Urban Institute
--   [**Powering Health Equity Action with Online Data Tools: 10 Design Principles**](https://nationalequityatlas.org/sites/default/files/10-Design-Principles-For-Online-Data-Tools.pdf) developed by PolicyLink and Ecotrust
--   [**ColorBrewer**](https://colorbrewer2.org) developed by Cynthia Brewer and Mark Harrower
--   [**Accessibility and Visualization**](https://www.youtube.com/watch?v=KVisPxjgdtU) by Frank Elavsky
--   [**Chartability**](https://www.frank.computer/chartability/) by Frank Elavsky, Cynthia Bennett, and Dominik Moritz
+-   [Do No Harm Guide: Applying Equity Awareness in Data Visualization](https://www.urban.org/research/publication/do-no-harm-guide-applying-equity-awareness-data-visualization)
+-   [Powering Health Equity Action with Online Data Tools: 10 Design Principles](https://nationalequityatlas.org/sites/default/files/10-Design-Principles-For-Online-Data-Tools.pdf)
+-   [ColorBrewer](https://colorbrewer2.org)
+-   [Accessibility and Visualization](https://www.youtube.com/watch?v=KVisPxjgdtU)
+-   [Chartability](https://www.frank.computer/chartability/)
 
 ## R
 
--   [**Epidemiologist R Handbook**](https://epirhandbook.com/en/) by Neale Batra et al. at Applied Epi
--   [**Advanced R**](https://adv-r.hadley.nz/) by Hadley Wickham
--   [**Big Book of R**](https://www.bigbookofr.com/) by Oscar Baruffa
--   [**R for Data Science (2nd Edition)**](https://r4ds.hadley.nz/) by Hadley Wickham, Mine Cetinkaya-Rundel, and Garrett Grolemund
--   [**Cheatsheets**](https://posit.co/blog/cheat-sheet-updates/) by Posit
+-   [Epidemiologist R Handbook](https://epirhandbook.com/en/)
+-   [Advanced R](https://adv-r.hadley.nz/)
+-   [Big Book of R](https://www.bigbookofr.com/)
+-   [R for Data Science (2nd Edition)](https://r4ds.hadley.nz/)
+-   [Cheatsheets](https://posit.co/blog/cheat-sheet-updates/)
 
 ## Code Style
 
--   [**naming things**](https://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf) by Jenny Bryan
+-   [naming things](https://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf)
