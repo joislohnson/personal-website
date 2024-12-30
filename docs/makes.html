@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Portfolio</title>
+<title>Makes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -42,6 +40,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,70 +70,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -158,11 +101,11 @@ window.Quarto = {
 <span class="menu-text">Resume/CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" aria-current="page"> 
+    <a class="nav-link" href="./posts.html"> 
 <span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./makes.html"> 
+    <a class="nav-link active" href="./makes.html" aria-current="page"> 
 <span class="menu-text">Makes</span></a>
   </li>  
   <li class="nav-item">
@@ -202,14 +145,13 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Mapping">Mapping <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Quarto">Quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Portfolio</h1>
+<h1 class="title">Makes</h1>
 </div>
 
 
@@ -226,57 +168,253 @@ window.Quarto = {
 </header>
 
 
-<p>I’m working on building this page out with additional projects. Stay tuned!</p>
+<p>I love to learn different crafts and create special things for loved ones. Here are snippets of different knitting, stitching, sewing, printmaking, etc. projects I’ve worked on over the past few years.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[1, 1, 1]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="files/makes/dog-sweater.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1;title:Knit dog sweater;" data-gallery="makes" title="Knit dog sweater"><img src="files/makes/dog-sweater.jpg" class="img-fluid figure-img" width="350" alt="Knit dog sweater"></a></p>
+<figcaption>Knit dog sweater</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="files/makes/bobby-sweater.JPG" class="lightbox" data-glightbox="description: .lightbox-desc-2;title:Bobby modeling the sweater;" data-gallery="makes" title="Bobby modeling the sweater"><img src="files/makes/bobby-sweater.JPG" class="img-fluid figure-img" width="350" alt="Bobby modeling the sweater"></a></p>
+<figcaption>Bobby modeling the sweater</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="files/makes/baby-blanket-close-up.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-3;title:Knit baby blanket;" data-gallery="makes" title="Knit baby blanket"><img src="files/makes/baby-blanket-close-up.jpg" class="img-fluid figure-img" width="350" alt="Knit baby blanket"></a></p>
+<figcaption>Knit baby blanket</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[1, 1, 1]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="files/makes/knitting-bag.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-4;title:Lil Bucky Bag;" data-gallery="makes" title="Lil Bucky Bag"><img src="files/makes/knitting-bag.jpg" class="img-fluid figure-img" width="350" alt="Lil Bucky Bag"></a></p>
+<figcaption>Lil Bucky Bag</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="files/makes/mini-quilt.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-5;title:Hand-sewn mini quilt;" data-gallery="makes" title="Hand-sewn mini quilt"><img src="files/makes/mini-quilt.jpg" class="img-fluid figure-img" width="350" alt="Hand-sewn mini quilt"></a></p>
+<figcaption>Hand-sewn mini quilt</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="files/makes/dog-bandana.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-6;title:Dog bandana;" data-gallery="makes" title="Dog bandana"><img src="files/makes/dog-bandana.jpg" class="img-fluid figure-img" width="350" alt="Dog bandana"></a></p>
+<figcaption>Dog bandana</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[1, 1, 1]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="files/makes/juniper.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-7;title:Juniper tree cross-stitch;" data-gallery="makes" title="Juniper tree cross-stitch"><img src="files/makes/juniper.jpg" class="img-fluid figure-img" width="350" alt="Juniper tree cross-stitch"></a></p>
+<figcaption>Juniper tree cross-stitch</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="files/makes/knitting-organizer.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-8;title:Craft case;" data-gallery="makes" title="Craft case"><img src="files/makes/knitting-organizer.jpg" class="img-fluid figure-img" width="350" alt="Craft case"></a></p>
+<figcaption>Craft case</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="files/makes/mushroom-embroidery.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-9;title:Free-hand mushroom embroidery;" data-gallery="makes" title="Free-hand mushroom embroidery"><img src="files/makes/mushroom-embroidery.jpg" class="img-fluid figure-img" width="350" alt="Free-hand mushroom embroidery"></a></p>
+<figcaption>Free-hand mushroom embroidery</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[1, 1, 1]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="files/makes/tree-skirt-2.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-10;title:Christmas tree skirt #1;" data-gallery="makes" title="Christmas tree skirt #1"><img src="files/makes/tree-skirt-2.jpg" class="img-fluid figure-img" width="350" alt="Christmas tree skirt #1"></a></p>
+<figcaption>Christmas tree skirt #1</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="files/makes/tree-skirt.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-11;title:Christmas tree skirt #2;" data-gallery="makes" title="Christmas tree skirt #2"><img src="files/makes/tree-skirt.jpg" class="img-fluid figure-img" width="350" alt="Christmas tree skirt #2"></a></p>
+<figcaption>Christmas tree skirt #2</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="files/makes/lotr-trivets.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-12;title:Trivets;" data-gallery="makes" title="Trivets"><img src="files/makes/lotr-trivets.jpg" class="img-fluid figure-img" width="350" alt="Trivets"></a></p>
+<figcaption>Trivets</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[1, 1, 1]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="files/makes/valentine-front.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-13;title:Risograph valentine (front);" data-gallery="makes" title="Risograph valentine (front)"><img src="files/makes/valentine-front.jpg" class="img-fluid figure-img" width="350" alt="Risograph valentine (front)"></a></p>
+<figcaption>Risograph valentine (front)</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="files/makes/valentine-back.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-14;title:Risograph valentine (back);" data-gallery="makes" title="Risograph valentine (back)"><img src="files/makes/valentine-back.jpg" class="img-fluid figure-img" width="350" alt="Risograph valentine (back)"></a></p>
+<figcaption>Risograph valentine (back)</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="files/makes/emmaline-embroidery.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-15;title:Swallows embroidery;" data-gallery="makes" title="Swallows embroidery"><img src="files/makes/emmaline-embroidery.jpg" class="img-fluid figure-img" width="350" alt="Swallows embroidery"></a></p>
+<figcaption>Swallows embroidery</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[1, 1, 1]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="files/makes/stained-glass.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-16;title:Stained glass;" data-gallery="makes" title="Stained glass"><img src="files/makes/stained-glass.jpg" class="img-fluid figure-img" width="350" alt="Stained glass"></a></p>
+<figcaption>Stained glass</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="files/makes/wedding-arbor.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-17;title:Wedding arbor;" data-gallery="makes" title="Wedding arbor"><img src="files/makes/wedding-arbor.jpg" class="img-fluid figure-img" width="350" alt="Wedding arbor"></a></p>
+<figcaption>Wedding arbor</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="files/makes/spaceship.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-18;title:Spaceship + space goose;" data-gallery="makes" title="Spaceship + space goose"><img src="files/makes/spaceship.jpg" class="img-fluid figure-img" width="350" alt="Spaceship + space goose"></a></p>
+<figcaption>Spaceship + space goose</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
 
 
+<div class="hidden" aria-hidden="true">
+<div class="glightbox-desc lightbox-desc-1">
+<p>Wool and the Gang’s <a href="https://www.woolandthegang.com/en/products/dog-s-life-coat">Dog’s Life Coat</a>—it’s the first knitting pattern I’ve ever finished!</p>
+</div>
+<div class="glightbox-desc lightbox-desc-2">
+<p>Bobby all cozied up in the sweater before a walk on a chilly day.</p>
+</div>
+<div class="glightbox-desc lightbox-desc-3">
+<p>Wool and the Gang’s <a href="https://www.woolandthegang.com/en/products/happy-blanket-kit">Happy Blanket</a> for my friend’s sweet baby Miles.</p>
+</div>
+<div class="glightbox-desc lightbox-desc-4">
+<p>Leila Make’s <a href="https://www.leilamakes.com/free-pattern/lil-bucky-bag">Lil Bucky Bag</a>, perfect for knitting projects!</p>
+</div>
+<div class="glightbox-desc lightbox-desc-5">
+<p>I learned how to improv mini quilts with Ali at the lovely <a href="https://sadierapp.com/triple-spring-studios">Triple Spring Studios</a>.</p>
+</div>
+<div class="glightbox-desc lightbox-desc-6">
+<p>I sewed this bandana for my pals’ dog Gertie out of my favorite cowboy fabric.</p>
+</div>
+<div class="glightbox-desc lightbox-desc-7">
+<p>I cross-stitched this juniper tree for my niece Juniper. The pattern from <a href="https://www.etsy.com/shop/Axebe">Axebe</a> is no longer available.</p>
+</div>
+<div class="glightbox-desc lightbox-desc-8">
+<p>Cool Stitches <a href="https://cool-stitches.com/shop/craft-case-pdf-pattern/">craft case</a>—I use it to keep my knitting tools organized.</p>
+</div>
+<div class="glightbox-desc lightbox-desc-9">
+<p>My first free-handed embroidery project, inspired by all of the mushrooms in my yard.</p>
+</div>
+<div class="glightbox-desc lightbox-desc-10">
+<p><a href="https://blog.treasurie.com/christmas-tree-skirt-pattern/">Christmas tree skirt pattern</a> from Treasurie.</p>
+</div>
+<div class="glightbox-desc lightbox-desc-11">
+<p>Another <a href="https://blog.treasurie.com/christmas-tree-skirt-pattern/">Christmas tree skirt</a> from Treasurie with my favorite cowboy fabric.</p>
+</div>
+<div class="glightbox-desc lightbox-desc-12">
+<p>I made these fun little trivets with thrifted fabric scraps for a LOTR-themed dinner party.</p>
+</div>
+<div class="glightbox-desc lightbox-desc-13">
+<p>I took an awesome valentine-themed risograph class at <a href="https://www.screenprintworkshop.com/">Super G Print Lab</a>. I was super happy with how my cards turned out! This is the front side of the card.</p>
+</div>
+<div class="glightbox-desc lightbox-desc-14">
+<p>I took an awesome valentine-themed risograph class at <a href="https://www.screenprintworkshop.com/">Super G Print Lab</a>. I was super happy with how my cards turned out! This is the back side of the card.</p>
+</div>
+<div class="glightbox-desc lightbox-desc-15">
+<p>Little Jo and Co’s <a href="https://www.etsy.com/listing/957343893/swallows-embroidery-pattern-pdf-digital?ref=yr_purchases">swallows embroidery pattern</a> for my niece Emmaline.</p>
+</div>
+<div class="glightbox-desc lightbox-desc-16">
+<p>I took my dad to a stained glass class at the <a href="https://cliftonculturalarts.org/">Clifton Cultural Arts Center</a>. It was way harder than I thought it’d be and my piece ended up looking pretty goofy, but we had a blast together!</p>
+</div>
+<div class="glightbox-desc lightbox-desc-17">
+<p>Lloyd and I had a disco-themed wedding and we made this arbor with our friend Willa using some of my grandparents’ old records.</p>
+</div>
+<div class="glightbox-desc lightbox-desc-18">
+<p>My friend Kate had an alien-themed birthday party around the time Virgin Galactic launched, so I felt inspired to build a spaceship prop.</p>
+</div>
+</div>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Quarto,R,Mapping" data-listing-date-sort="1735016400000" data-listing-file-modified-sort="1735425138607" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1920">
-<div class="thumbnail">
-<p><a href="./posts/2024-12-24-svi-analysis/index.html" class="no-external"></a></p><a href="./posts/2024-12-24-svi-analysis/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/2024-12-24-svi-analysis/index_files/figure-html/unnamed-chunk-6-1.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2024-12-24-svi-analysis/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2024-12-24-svi-analysis/index.html" class="no-external">Wake County SVI Analysis</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-12-24-svi-analysis/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Quarto'); return false;">
-Quarto
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Mapping'); return false;">
-Mapping
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2024-12-24-svi-analysis/index.html" class="no-external">Mapping geographic disparities in social vulnerability factors in Wake County, NC.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2024-12-24-svi-analysis/index.html" class="no-external">
-<div class="listing-date">
-Dec 24, 2024
-</div>
-<div class="listing-author">
-Lois Adler-Johnson
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -698,6 +836,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","closeEffect":"zoom","selector":".lightbox","loop":false});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

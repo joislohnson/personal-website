@@ -1,0 +1,60 @@
+---
+title: "Makes"
+lightbox: true
+---
+
+I love to learn different crafts and create special things for loved ones. Here are snippets of different knitting, stitching, sewing, printmaking, etc. projects I've worked on over the past few years.
+
+::: {layout="[1, 1, 1]"}
+![Knit dog sweater](files/makes/dog-sweater.jpg){group="makes" description="Wool and the Gang's [Dog's Life Coat](https://www.woolandthegang.com/en/products/dog-s-life-coat)—it's the first knitting pattern I've ever finished!" width="350"}
+
+![Bobby modeling the sweater](files/makes/bobby-sweater.JPG){group="makes" description="Bobby all cozied up in the sweater before a walk on a chilly day." width="350"}
+
+![Knit baby blanket](files/makes/baby-blanket-close-up.jpg){group="makes" description="Wool and the Gang's [Happy Blanket](https://www.woolandthegang.com/en/products/happy-blanket-kit) for my friend's sweet baby Miles." width="350"}
+:::
+
+::: {layout="[1, 1, 1]"}
+![Lil Bucky Bag](files/makes/knitting-bag.jpg){group="makes" description="Leila Make's [Lil Bucky Bag](https://www.leilamakes.com/free-pattern/lil-bucky-bag), perfect for knitting projects!" width="350"}
+
+![Hand-sewn mini quilt](files/makes/mini-quilt.jpg){group="makes" description="I learned how to improv mini quilts with Ali at the lovely [Triple Spring Studios](https://sadierapp.com/triple-spring-studios)." width="350"}
+
+![Dog bandana](files/makes/dog-bandana.jpg){group="makes" description="I sewed this bandana for my pals' dog Gertie out of my favorite cowboy fabric." width="350"}
+:::
+
+::: {layout="[1, 1, 1]"}
+
+![Juniper tree cross-stitch](files/makes/juniper.jpg){group="makes" description="I cross-stitched this juniper tree for my niece Juniper. The pattern from [Axebe](https://www.etsy.com/shop/Axebe) is no longer available." width="350"}
+
+![Craft case](files/makes/knitting-organizer.jpg){group="makes" description="Cool Stitches [craft case](https://cool-stitches.com/shop/craft-case-pdf-pattern/)—I use it to keep my knitting tools organized." width="350"}
+
+![Free-hand mushroom embroidery](files/makes/mushroom-embroidery.jpg){group="makes" description="My first free-handed embroidery project, inspired by all of the mushrooms in my yard." width="350"}
+:::
+
+::: {layout="[1, 1, 1]"}
+
+![Christmas tree skirt #1](files/makes/tree-skirt-2.jpg){group="makes" description="[Christmas tree skirt pattern](https://blog.treasurie.com/christmas-tree-skirt-pattern/) from Treasurie." width="350"}
+
+![Christmas tree skirt #2](files/makes/tree-skirt.jpg){group="makes" description="Another [Christmas tree skirt](https://blog.treasurie.com/christmas-tree-skirt-pattern/) from Treasurie with my favorite cowboy fabric." width="350"}
+
+![Trivets](files/makes/lotr-trivets.jpg){group="makes" description="I made these fun little trivets with thrifted fabric scraps for a LOTR-themed dinner party." width="350"}
+:::
+
+::: {layout="[1, 1, 1]"}
+
+![Risograph valentine (front)](files/makes/valentine-front.jpg){group="makes" description="I took an awesome valentine-themed risograph class at [Super G Print Lab](https://www.screenprintworkshop.com/). I was super happy with how my cards turned out! This is the front side of the card." width="350"}
+
+![Risograph valentine (back)](files/makes/valentine-back.jpg){group="makes" description="I took an awesome valentine-themed risograph class at [Super G Print Lab](https://www.screenprintworkshop.com/). I was super happy with how my cards turned out! This is the back side of the card." width="350"}
+
+![Swallows embroidery](files/makes/emmaline-embroidery.jpg){group="makes" description="Little Jo and Co's [swallows embroidery pattern](https://www.etsy.com/listing/957343893/swallows-embroidery-pattern-pdf-digital?ref=yr_purchases) for my niece Emmaline." width="350"}
+
+:::
+
+::: {layout="[1, 1, 1]"}
+
+![Stained glass](files/makes/stained-glass.jpg){group="makes" description="I took my dad to a stained glass class at the [Clifton Cultural Arts Center](https://cliftonculturalarts.org/). It was way harder than I thought it'd be and my piece ended up looking pretty goofy, but we had a blast together!" width="350"}
+
+![Wedding arbor](files/makes/wedding-arbor.jpg){group="makes" description="Lloyd and I had a disco-themed wedding and we made this arbor with our friend Willa using some of my grandparents' old records." width="350"}
+
+![Spaceship + space goose](files/makes/spaceship.jpg){group="makes" description="My friend Kate had an alien-themed birthday party around the time Virgin Galactic launched, so I felt inspired to build a spaceship prop." width="350"}
+
+:::
