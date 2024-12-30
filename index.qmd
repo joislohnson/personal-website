@@ -22,7 +22,7 @@ I describe myself as a public health data scientist with a unique blend of engin
 
 In my current role as a Data Analyst & Advisor at the [North Carolina Institute for Public Health](https://sph.unc.edu/nciph/nciph-home/), I apply advanced quantitative analysis skills to investigate and address health inequities in North Carolina.
 
-Outside of my data endeavors, I'm a part-time baker at a [local grain farm](https://redtailgrains.com/) and I run a fiction book club ([join us](https://bookclubs.com/clubs/6021809/join/55cabb/)!). On any given day, you can find me walking and snuggling with my dogs, trying new recipes, and working on a range of creative projects.
+Outside of my data endeavors, I'm a part-time baker at a [local grain farm](https://redtailgrains.com/) and I run a fiction book club ([join us](https://bookclubs.com/clubs/6021809/join/55cabb/)!). On any given day, you can find me walking and snuggling with my dogs, trying new recipes, and working on a range of [creative projects](makes.qmd).
 
 ## Education
 
