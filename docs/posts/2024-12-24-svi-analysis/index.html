@@ -165,6 +165,10 @@ div.csl-indent {
 <span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../../makes.html"> 
+<span class="menu-text">Makes</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../../resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
@@ -249,12 +253,12 @@ div.csl-indent {
   <li><a href="#import-data" id="toc-import-data" class="nav-link" data-scroll-target="#import-data">Import Data</a></li>
   <li><a href="#clean-data" id="toc-clean-data" class="nav-link" data-scroll-target="#clean-data">Clean Data</a></li>
   <li><a href="#merge-clean-data-and-shapefile" id="toc-merge-clean-data-and-shapefile" class="nav-link" data-scroll-target="#merge-clean-data-and-shapefile">Merge Clean Data and Shapefile</a></li>
-  <li><a href="#analyzing-social-vulnerability-among-tracts" id="toc-analyzing-social-vulnerability-among-tracts" class="nav-link" data-scroll-target="#analyzing-social-vulnerability-among-tracts">Analyzing Social Vulnerability Among Tracts</a></li>
-  <li><a href="#visualizing-the-most-and-least-socially-vulnerable-communities-in-wake-county" id="toc-visualizing-the-most-and-least-socially-vulnerable-communities-in-wake-county" class="nav-link" data-scroll-target="#visualizing-the-most-and-least-socially-vulnerable-communities-in-wake-county">Visualizing the Most and Least Socially Vulnerable Communities in Wake County</a>
+  <li><a href="#analyze-social-vulnerability-among-tracts" id="toc-analyze-social-vulnerability-among-tracts" class="nav-link" data-scroll-target="#analyze-social-vulnerability-among-tracts">Analyze Social Vulnerability Among Tracts</a></li>
+  <li><a href="#visualize-the-most-and-least-socially-vulnerable-communities-in-wake-county" id="toc-visualize-the-most-and-least-socially-vulnerable-communities-in-wake-county" class="nav-link" data-scroll-target="#visualize-the-most-and-least-socially-vulnerable-communities-in-wake-county">Visualize the Most and Least Socially Vulnerable Communities in Wake County</a>
   <ul class="collapse">
   <li><a href="#key-insight" id="toc-key-insight" class="nav-link" data-scroll-target="#key-insight">Key Insight</a></li>
   </ul></li>
-  <li><a href="#investigating-alignment-between-opportunity-zones-and-socially-vulnerable-communities" id="toc-investigating-alignment-between-opportunity-zones-and-socially-vulnerable-communities" class="nav-link" data-scroll-target="#investigating-alignment-between-opportunity-zones-and-socially-vulnerable-communities">Investigating Alignment Between Opportunity Zones and Socially Vulnerable Communities</a>
+  <li><a href="#investigate-alignment-between-opportunity-zones-and-socially-vulnerable-communities" id="toc-investigate-alignment-between-opportunity-zones-and-socially-vulnerable-communities" class="nav-link" data-scroll-target="#investigate-alignment-between-opportunity-zones-and-socially-vulnerable-communities">Investigate Alignment Between Opportunity Zones and Socially Vulnerable Communities</a>
   <ul class="collapse">
   <li><a href="#key-insight-1" id="toc-key-insight-1" class="nav-link" data-scroll-target="#key-insight-1">Key Insight</a></li>
   </ul></li>
@@ -378,8 +382,8 @@ div.csl-indent {
 </details>
 </div>
 </section>
-<section id="analyzing-social-vulnerability-among-tracts" class="level1">
-<h1>Analyzing Social Vulnerability Among Tracts</h1>
+<section id="analyze-social-vulnerability-among-tracts" class="level1">
+<h1>Analyze Social Vulnerability Among Tracts</h1>
 <p>I wanted to identify the “most” and “least” socially vulnerable communities to visualize geographic disparities in social vulnerability factors across Wake County, so <strong>I calculated the 75th and 25th percentiles</strong> for each of the following indicators: rates of no high school diploma (age 25+), individuals below 150% FPL, overcrowded housing, households without a vehicle, and BIPOC residents.</p>
 <p>I defined the <strong>most socially vulnerable areas</strong> as tracts in the <strong>top 25%</strong> across all 5 of the indicators: rates of no high school diploma among individuals 25 and over (&gt;= <em>5.6%</em>), individuals below 150% FPL (&gt;= <em>18.6%</em>), overcrowded housing units (&gt;= <em>3%</em>), households without a vehicle (&gt;= <em>6%</em>), and BIPOC residents (&gt;= <em>52.6%</em>). Similarly, I defined the <strong>least socially vulnerable areas</strong> as tracts in the <strong>bottom 25%</strong> across all 5 indicators: rates of no high school diploma among individuals 25 and over (&lt;= <em>1.2</em>%), individuals below 150% FPL (&gt;= <em>6.5%</em>), overcrowded housing units (<em>0%</em>), households without a vehicle (&lt;= <em>0.9%</em>), and BIPOC residents (&lt;= <em>23.9%</em>).</p>
 <div class="cell">
@@ -437,8 +441,8 @@ div.csl-indent {
 </details>
 </div>
 </section>
-<section id="visualizing-the-most-and-least-socially-vulnerable-communities-in-wake-county" class="level1">
-<h1>Visualizing the Most and Least Socially Vulnerable Communities in Wake County</h1>
+<section id="visualize-the-most-and-least-socially-vulnerable-communities-in-wake-county" class="level1">
+<h1>Visualize the Most and Least Socially Vulnerable Communities in Wake County</h1>
 <p>The <strong>most socially vulnerable areas</strong> are census tracts in the <strong>top 25%</strong> for rates of no high school diploma (age 25+), individuals below 150% FPL, overcrowded housing, households without a vehicle, and BIPOC residents. The <strong>least socially vulnerable areas</strong> are in the <strong>bottom 25%</strong> for these indicators.</p>
 <div class="cell">
 <details class="code-fold">
@@ -499,8 +503,8 @@ div.csl-indent {
 <p>Wake County is divided into 8 service zones. This map shows that <strong>the most socially vulnerable communities are clustered together</strong>, concentrated in the East Central service zone and nearby tracts on the borders of the North Central, South Central, and West Central service zones. On the other hand, <strong>the least socially vulnerable communities are more distinctly spread across the county</strong> in the Northern, North Central, West, and South Central service zones. We can use this information to help inform which tracts and service zones county-level investments should go to.</p>
 </section>
 </section>
-<section id="investigating-alignment-between-opportunity-zones-and-socially-vulnerable-communities" class="level1">
-<h1>Investigating Alignment Between Opportunity Zones and Socially Vulnerable Communities</h1>
+<section id="investigate-alignment-between-opportunity-zones-and-socially-vulnerable-communities" class="level1">
+<h1>Investigate Alignment Between Opportunity Zones and Socially Vulnerable Communities</h1>
 <p>Established by Congress in 2017 through the Tax Cuts &amp; Jobs Act, <a href="https://raleigh-wake.org/business-advantages/equitable-economic-development/opportunity-zones">Opportunity Zones</a> are a nationwide incentive program to encourage long-term investment and economic growth in communities that have experienced historical disinvestment. The Opportunity Zones Program currently defines eligible census tracts as areas where the poverty rate is 20% or higher and/or family income is less than 80% of the area’s median income. In Raleigh, there are <a href="https://ral.maps.arcgis.com/apps/MapJournal/index.html?appid=497bd2e832a1451f8ad2514bcba67ad8">10 census tracts</a> designated as Opportunity Zones.</p>
 <p>The shaded areas in this map are the <strong>most socially vulnerable areas</strong>, or census tracts in the <strong>top 25%</strong> for rates of no high school diploma (age 25+), individuals below 150% FPL, overcrowded housing, households without a vehicle, and BIPOC residents. Among these tracts, green areas are designated Opportunity Zones while gray areas are not.</p>
 <div class="cell">
