@@ -117,7 +117,7 @@ wake_service_zones_sf <- left_join(
   mutate(zone_name = ifelse(zone_name=="East Central", "East\nCentral", zone_name))
 ```
 
-# Analyzing Social Vulnerability Among Tracts
+# Analyze Social Vulnerability Among Tracts
 
 I wanted to identify the "most" and "least" socially vulnerable communities to visualize geographic disparities in social vulnerability factors across Wake County, so **I calculated the 75th and 25th percentiles** for each of the following indicators: rates of no high school diploma (age 25+), individuals below 150% FPL, overcrowded housing, households without a vehicle, and BIPOC residents.
 
@@ -177,7 +177,7 @@ lowest_quartile_tracts_geo <- wake_tracts %>%
   inner_join(lowest_quartile_tracts, by = c("GEOID" = "fips_code"))
 ```
 
-# Visualizing the Most and Least Socially Vulnerable Communities in Wake County
+# Visualize the Most and Least Socially Vulnerable Communities in Wake County
 
 The **most socially vulnerable areas** are census tracts in the **top 25%** for rates of no high school diploma (age 25+), individuals below 150% FPL, overcrowded housing, households without a vehicle, and BIPOC residents. The **least socially vulnerable areas** are in the **bottom 25%** for these indicators.
 
@@ -233,7 +233,7 @@ map_with_labels
 
 Wake County is divided into 8 service zones. This map shows that **the most socially vulnerable communities are clustered together**, concentrated in the East Central service zone and nearby tracts on the borders of the North Central, South Central, and West Central service zones. On the other hand, **the least socially vulnerable communities are more distinctly spread across the county** in the Northern, North Central, West, and South Central service zones. We can use this information to help inform which tracts and service zones county-level investments should go to.
 
-# Investigating Alignment Between Opportunity Zones and Socially Vulnerable Communities
+# Investigate Alignment Between Opportunity Zones and Socially Vulnerable Communities
 
 Established by Congress in 2017 through the Tax Cuts & Jobs Act, [Opportunity Zones](https://raleigh-wake.org/business-advantages/equitable-economic-development/opportunity-zones) are a nationwide incentive program to encourage long-term investment and economic growth in communities that have experienced historical disinvestment. The Opportunity Zones Program currently defines eligible census tracts as areas where the poverty rate is 20% or higher and/or family income is less than 80% of the area's median income. In Raleigh, there are [10 census tracts](https://ral.maps.arcgis.com/apps/MapJournal/index.html?appid=497bd2e832a1451f8ad2514bcba67ad8) designated as Opportunity Zones.
 
