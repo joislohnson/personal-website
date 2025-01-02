@@ -7,7 +7,7 @@ about:
     - text: "{{< iconify mdi:linkedin >}} LinkedIn"
       href: https://www.linkedin.com/in/loiscjohnson/
     - text: "{{< iconify mdi:github >}} GitHub"
-      href: https://github.com/joislohnson
+      href: https://github.com/loisaj
     - text: "{{< iconify ri:bluesky-fill >}} Bluesky"
       href: https://bsky.app/profile/lois-aj.bsky.social
     - text: "{{< iconify simple-icons:googlescholar >}} Google Scholar"
