@@ -1,0 +1,40 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "#title: \"Resume/CV\"\n",
+        "---\n",
+        "\n",
+        "```{css}\n",
+        ".responsive-iframe {\n",
+        "    width: 100%;\n",
+        "    height: 100vh; /* Viewport height */\n",
+        "    border: none;\n",
+        "}\n",
+        "@media (max-width: 600px) {\n",
+        "    .responsive-iframe {\n",
+        "        height: 80vh; /* Adjust height for smaller screens */\n",
+        "    }\n",
+        "}\n",
+        "\n",
+        "<iframe src=\"files/Lois-Adler-Johnson_CV.pdf\" class=\"responsive-iframe\"></iframe>\n",
+        "```\n",
+        "\n",
+        "{{< pdf files/Lois-Adler-Johnson_CV.pdf width=100% height=100% >}}\n"
+      ],
+      "id": "fe8d7bb4"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
