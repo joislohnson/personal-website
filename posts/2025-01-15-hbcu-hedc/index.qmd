@@ -13,3 +13,22 @@ toc: true
 #image: preview-image.png
 draft: true # setting this to `true` will prevent your post from appearing on your listing page until you're ready
 ---
+
+# Load Libraries
+
+Load necessary packages to use functions throughout the document.
+
+```{r}
+#| output: false
+library(tidyverse) # data wrangling
+library(knitr)
+library(grateful) # package citations
+```
+
+# Citations
+
+```{r}
+# Add packages used to bibliography
+cite_packages(output = "table", out.dir = ".") %>% kable()
+
+```
