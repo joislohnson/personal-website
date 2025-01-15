@@ -1,0 +1,15 @@
+---
+title: "Supporting the HBCU Health Equity Data Consortium"
+description: "[insert description]"
+author:
+  - name: Lois Adler-Johnson
+date: 01-15-2024
+categories: [Data Viz, Quarto, R, R Shiny, UseR!]
+format: 
+  html:
+   code-fold: true
+   title-block-banner: "#0c2c84"
+toc: true
+#image: preview-image.png
+draft: true # setting this to `true` will prevent your post from appearing on your listing page until you're ready
+---
