@@ -4,7 +4,7 @@ description: "Mapping geographic disparities in social vulnerability factors in 
 author:
   - name: Lois Adler-Johnson
 date: 12-24-2024
-categories: [Quarto, R, Mapping]
+categories: [Data Viz, Quarto, R, Mapping]
 format: 
   html:
    code-fold: true
