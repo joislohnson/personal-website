@@ -1,26 +1,26 @@
 # Personal Website
 
-## Description
-### Overview
-This project is my personal website which highlights my background, resume/CV, data science portfolio, creative projects, and recommended data science resources. 
+## 📖 Description
+### ℹ️ Overview
+Welcome to the project for my personal website! The website highlights my background, resume/CV, data science portfolio, creative projects, and recommended data science resources. 
 
-### Choosing Quarto
+### 💡 Choosing Quarto
 I wanted to use this project as an opportunity to learn how to build a Quarto website. I'm an R programmer with experience creating HTML and PDF documents in Quarto, so creating a Quarto website felt like an obvious next step in my personal _see-ya-RMarkdown-hello-Quarto-you-seem-cool_ mission.
 
 Perhaps more importantly, as a Shiny dashboard developer, I've increasingly found myself considering projects where developing a Quarto website could be the preferred approach. This preference stems from a couple key advantages. First, I think Quarto has a gentler learning curve than Shiny. Opting for more intuitive programming tools paves the way for more efficient and collaborative development. Second, Quarto seems to have less quirks than Shiny, which seems to result in less complex dashboards/sites overall. This decreased complexity reduces the time and effort required to build and maintain the project.
 
-### What I Learned
+### 🧠 What I Learned
 - Building your own website is really fun. It took me back to MySpace days! I originally thought the website would mostly be a professional tool. In the middle of development, I had the retrospectively obvious realization that I could include anything I wanted, so I decided to create a page showcasing my creative projects. Seeing all of the things I've made in the past couple of years in a gallery makes me feel prouder of myself then reviewing academic and professional accomplishments. These tiny personal joys remind me of Dr. Fonti Kar's  [2024 useR! talk "Why Build Silly Things in R?"](https://userconf2024.sched.com/event/1c8zy/why-build-silly-things-in-r-fonti-kar-university-of-new-south-wales?iframe=yes&w=100%&sidebar=yes&bg=no) 🤠
 - Quarto continues to blow me away with how easy it is to use. I initially felt intimated by the prospect of making my own website, but Quarto made the development process feel seamless!
 - I think my intuition about Shiny dashboards vs. Quarto websites was spot-on. While I still see a need for both tools, you'll find me recommending Quarto websites more often given the organizational capacity limitations I'm up against.
 
-## Installation
-To install, start by **cloning the repository**.
+## 🖥️ Installation
+Start by **cloning the repository**.
    ```bash
    git clone https://github.com/joislohnson/personal-website.git
   ```
 
-[**Install Quarto**](https://quarto.org/docs/get-started/) followed by the **Quarto extensions** used for this project:
+Next, [**install Quarto**](https://quarto.org/docs/get-started/) followed by the **Quarto extensions** used for this project:
 - [**embedio**](https://github.com/coatless-quarto/embedio#readme)
    ```bash
    quarto add coatless-quarto/embedio
@@ -34,16 +34,16 @@ To install, start by **cloning the repository**.
    quarto add mcanouil/quarto-iconify
    ```
 
-## Run the Website
+## 🪟 Run the Website
 To preview the website with R Studio or VS Code, select **Render** (R Studio) or **Preview** (VS Code) to render and preview the website in an embedded window.
 
 Alternatively, you can use the Terminal.
    ```bash
    quarto preview
    ```
-## Usage
-I created pages for my website based on my own preferences. Feel free to use whichever page(s) you'd like as a template for your own Quarto website!
-### About Page
+## 👩‍💻 Usage
+I created pages for my website based on my own preferences. Feel free to use whichever page(s) you'd like as a template for your own Quarto website.
+### 👋 About Page
 When you provide the `about` option to your Quarto document, you can choose from 5 built-in [About Page](https://quarto.org/docs/websites/website-about.html) templates. I chose to use the trestles template and used the [iconify](https://github.com/mcanouil/quarto-iconify) extension to add custom icons beneath my headshot. 
 
 Here's the YAML for my about page:
@@ -68,14 +68,14 @@ about:
 ---
    ```
 
-### Resume/CV Page
+### 📄 Resume/CV Page
 I used the [embedpdf](https://github.com/jmgirard/embedpdf?tab=readme-ov-file) extension to embed my CV on this page.
 
  ``` bash
 {{< pdf files/Lois-Adler-Johnson_CV.pdf width=100% >}}
    ```
 
-### Portfolio Page
+### 📚 Portfolio Page
 A big part of why I wanted to create a personal website was to develop a data science portfolio. To do this, I wanted to add a [Quarto blog](https://quarto.org/docs/websites/website-blog.html) to my [Quarto website](https://quarto.org/docs/websites/). 
 
 I did this by creating a `posts` subdirectory and a [listing page](https://quarto.org/docs/websites/website-listings.html) in the main directory.
@@ -122,7 +122,7 @@ toc: true
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready
 ---
    ```
-### Makes Page
+### 🧶 Makes Page
 I wanted to include a page with an accessible layout of images of various creative projects I've worked on. Lucikly, [Quarto adds lightbox treatment](https://quarto.org/docs/output-formats/html-lightbox-figures.html) for all images in a document with the `lightbox: TRUE` option, allowing users to click and see a larger version of an image and more detailed captions. 
  ``` bash
 ---
@@ -148,7 +148,7 @@ I wanted the images to be in a grid-style arrangement. After playing around with
 ![Dog bandana](files/makes/dog-bandana.jpg){group="makes" description="I sewed this bandana for my pals' dog Gertie out of my favorite cowboy fabric." width="350"}
 :::
 ```
-### Resources Page
+### 🌱 Resources Page
 I'm often sharing resource lists with our partners, my coworkers, and students, so I wanted to compile a public list to point folks to. 
 
 This page is the simplest of them all! For good measure, here's a snippet of what the Quarto document looks like.
