@@ -5,7 +5,7 @@ format:
     toc: true
 ---
 
-Here are some my most referenced and shared resources. These lists are always evolving and I welcome recommended additions!
+Here are some of my most referenced and shared resources. These lists are always evolving, and I welcome recommended additions!
 
 ## Data Democratization & Data Equity
 
