@@ -15,36 +15,29 @@ Perhaps more importantly, as a Shiny dashboard developer, I've increasingly foun
 - I think my intuition about Shiny dashboards vs. Quarto websites was spot-on. While I still see a need for both tools, you'll find me recommending Quarto websites more often given the organizational capacity limitations I'm up against.
 
 ## Installation
-### Clone the repository.
+To install, start by **cloning the repository**.
    ```bash
    git clone https://github.com/joislohnson/personal-website.git
   ```
 
-### Install Quarto [here](https://quarto.org/docs/get-started/).
-
-### Install Quarto extensions.
-#### [embedio](https://github.com/coatless-quarto/embedio#readme)
+[**Install Quarto**](https://quarto.org/docs/get-started/) followed by the **Quarto extensions** used for this project:
+- [**embedio**](https://github.com/coatless-quarto/embedio#readme)
    ```bash
    quarto add coatless-quarto/embedio
    ```
-#### [embedpdf](https://github.com/jmgirard/embedpdf?tab=readme-ov-file)
+- [**embedpdf**](https://github.com/jmgirard/embedpdf?tab=readme-ov-file)
    ```bash
    quarto add jmgirard/embedpdf
    ```
-#### [iconify](https://github.com/mcanouil/quarto-iconify)
+- [**iconify**](https://github.com/mcanouil/quarto-iconify)
    ```bash
    quarto add mcanouil/quarto-iconify
    ```
 
 ## Run the Website
-You can preview the website with R Studio, VS Code, or from the Terminal.
-### R Studio
-Select the **Render** button to render and preview the website in an embedded window.
+To preview the website with R Studio or VS Code, select **Render** (R Studio) or **Preview** (VS Code) to render and preview the website in an embedded window.
 
-### VS Code
-Select the **Preview** button to render and preview the website in an embedded window.
-
-### Terminal
+Alternatively, you can use the Terminal.
    ```bash
    quarto preview
    ```
@@ -156,7 +149,7 @@ I wanted the images to be in a grid-style arrangement. After playing around with
 :::
 ```
 ### Resources Page
-I am often sharing resource lists with our partners, my coworkers, and students I work with, so I wanted to compile a public list to point folks to. 
+I'm often sharing resource lists with our partners, my coworkers, and students, so I wanted to compile a public list to point folks to. 
 
 This page is the simplest of them all! For good measure, here's a snippet of what the Quarto document looks like.
  ``` bash
