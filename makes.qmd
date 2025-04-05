@@ -9,6 +9,7 @@ I love to learn different crafts and create special things for loved ones. Here 
 ![Screenprinting process (1)](files/makes/screenprint-pre-pull.jpg){group="makes" description="Shot of my burned screen with my final layer, black ink, and squeegee before pulling." width="350"}
 
 ![Screenprinting process (2)](files/makes/screenprint-post-pull.jpg){group="makes" description="Checking out my print after pulling the final layer." width="350"}
+
 ![Final 3-layer screenprint](files/makes/final-print.jpg){group="makes" description="Final 3-layer product from the 4-week Intro to Screenprint class I took at [Super G Print Lab](https://www.screenprintworkshop.com/) in Durham." width="350"}
 :::
 
