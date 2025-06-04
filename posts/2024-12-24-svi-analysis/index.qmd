@@ -302,6 +302,7 @@ Of the 10 tracts identified as the most socially vulnerable areas, **4** are des
 # Citations
 
 ```{r}
+#| warning: false
 # Add packages used to bibliography
 cite_packages(output = "table", out.dir = ".") %>% kable()
 
