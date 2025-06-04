@@ -14,7 +14,16 @@ toc: true
 draft: true # setting this to `true` will prevent your post from appearing on your listing page until you're ready
 ---
 
-# Load Libraries
+{{< video https://www.youtube.com/embed/77gPAh9Jj18>}}
+# Project Overview
+##
+
+# Data Analysis Workgroup
+
+# Leveraging Open-Source Tools
+
+# Feature Snapshot
+## Load Libraries
 
 Load necessary packages to use functions throughout the document.
 
@@ -25,7 +34,7 @@ library(knitr)
 library(grateful) # package citations
 ```
 
-# Citations
+## Citations
 
 ```{r}
 # Add packages used to bibliography
