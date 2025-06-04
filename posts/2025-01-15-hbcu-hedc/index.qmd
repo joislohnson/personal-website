@@ -4,7 +4,7 @@ description: "Using R to co-create inclusive data analysis approaches."
 author:
   - name: Lois Adler-Johnson
 date: 06-04-2025
-categories: [Data Viz, Quarto, R, R Shiny, UseR!]
+categories: [Data Viz, Quarto, R, R Shiny, useR!]
 format: 
   html:
    code-fold: true
@@ -37,7 +37,7 @@ Our team at NCIPH led R workshops, compiled relevant R resources, and developed 
 
 # useR! Talk
 
-In July 2024, I had the opportunity to give a talk about this work at the useR! conference in Salzburg, Austria. In addition to the content mentioned above, I discussed how convening a Data Analysis Workgroup and using free, open-source R packages and tools can serve as an engaging framework to bolster data science education and autonomy.
+In July 2024, I had the opportunity to give a talk about this work at the [useR! conference in Salzburg, Austria](https://user2024.r-project.org/). In addition to the content mentioned above, I discussed how convening a Data Analysis Workgroup and using free, open-source R packages and tools can serve as an engaging framework to bolster data science education and autonomy.
 
 I encouraged fellow data scientists to:
 
