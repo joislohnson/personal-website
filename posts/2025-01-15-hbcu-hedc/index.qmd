@@ -1,9 +1,9 @@
 ---
 title: "Supporting the HBCU Health Equity Data Consortium"
-description: "[insert description]"
+description: "Using R to co-create inclusive data analysis approaches."
 author:
   - name: Lois Adler-Johnson
-date: 01-15-2024
+date: 06-04-2025
 categories: [Data Viz, Quarto, R, R Shiny, UseR!]
 format: 
   html:
@@ -14,30 +14,36 @@ toc: true
 #draft: true # setting this to `true` will prevent your post from appearing on your listing page until you're ready
 ---
 
-{{< video https://www.youtube.com/embed/77gPAh9Jj18>}} \# Project Overview \##
+# Project Overview
+
+The [Historically Black Colleges and Universities (HBCU) Health Equity Data Consortium (HEDC)](https://hbcuhedcconsortium.org/) is a strategic collaboration of 10 HBCU and Minority Serving Institutions (MSI) across North Carolina working to address health disparities among underserved communities in our state.
+
+From February 2023 to February 2024, the [HBCU HEDC](https://hbcuhedcconsortium.org/) deployed the [COVID-19 Impact Survey](https://hbcuhedcconsortium.org/sample-page/) to address critical data gaps on the pandemic’s impact on households across NC. Our team at the [North Carolina Institute for Public Health (NCIPH)](https://sph.unc.edu/hbcu-health-equity-data-consortium/) provided technical assistance for survey methods, analysis, and dissemination.
 
 # Data Analysis Workgroup
 
+Tasked with providing capacity building support for wrangling, analyzing, and visualizing survey results, I helped form a **Data Analysis Workgroup** composed of faculty and students from all 10 universities within the HBCU HEDC.
+
+I'd be remiss not to mention some of the members of the workgroup: **Dr. Scott Bradshaw (ECSU), Dr. Sabina Otienoburu (JCSU), Dr. Cynthia Williams Brown (WSSU), Dr. Martie Thompson (App State), Dr. Sherry Leviner (FSU), Melvin Jackson (Shaw/UNC-CH), Dr. Anderton-Georgie (Shaw), Dr. Dorothy C. Browne (Shaw), Dr. Nicole Diggs (NCCU), Dr. Irene Doherty (NCCU), Dr. Joe West (UNC Pembroke), Dr. Yiqing Yang (WCU), Dr. Ashley Sanderlin (NCAT), Dr. Miriam Wagner (NCAT), DeNita Murdock-Nash (NC SCHS), Dr. John Wallace (UNC-CH), and Jaquayla Hodges (UNC-CH)**. Shout-out to all of these amazing folks!
+
 # Leveraging Open-Source Tools
 
-# Feature Snapshot
+We wanted choose a primary programming language for the analysis. Understandably, members of the workgroup had a variety of preferred, mostly licensed programming languages. I selected **R** as the primary language because it's **free**, **open-source**, **conducive to literate programming and research reproducibility**, and there's an **unparalleled volume of self-learning resources.**
 
-## Load Libraries
+Our team at NCIPH led R workshops, compiled relevant R resources, and developed shared code for transforming raw results, descriptive statistics, and univariate regression. The workgroup used R Markdown, Quarto, and Shiny to report results, ultimately using the output as a basis for coding and analysis decisions, exploratory analyses, and dissemination of findings to NC communities.
 
-Load necessary packages to use functions throughout the document.
+![Impact of workshops, shared code, R Markdown, Quarto, and Shiny.](images/impact.svg){fig-alt="The impacts of generating shared code and training, which includes: transforming raw results, generating descriptive statistics, and conducting univariate regression. The impacts of using R Markdown Quarto and Shiny, which include making coding & analysis decisions, brainstorming exploratory analyses, and disseminating key findings." fig-align="center"}
 
-```{r}
-#| output: false
-library(tidyverse) # data wrangling
-library(knitr)
-library(grateful) # package citations
-```
+# useR! Talk
 
-## Citations
+In July 2024, I had the opportunity to give a talk about this work at the useR! conference in Salzburg, Austria. In addition to the content mentioned above, I discussed how convening a Data Analysis Workgroup and using free, open-source R packages and tools can serve as an engaging framework to bolster data science education and autonomy.
 
-```{r}
-#| warning: false
-# Add packages used to bibliography
-cite_packages(output = "table", out.dir = ".") %>% kable()
+I encouraged fellow data scientists to:
 
-```
+-   **Break out of the silo** we too often find ourselves in by forming data workgroups tailored to project context
+
+-   **Demystify data science** by meaningfully engaging folks throughout the data lifecycle
+
+-   **Promote data democratization** by using free and open source tools (okay R!)
+
+{{< video https://www.youtube.com/embed/77gPAh9Jj18>}}
