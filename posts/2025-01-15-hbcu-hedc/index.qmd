@@ -1,10 +1,10 @@
 ---
-title: "Supporting the HBCU Health Equity Data Consortium"
-description: "Using R to co-create inclusive data analysis approaches."
+title: "Co-Creating Inclusive Data Analysis Approaches"
+description: "Using open source tools and forming a data analysis workgroup to support the HBCU Health Equity Data Consortium."
 author:
   - name: Lois Adler-Johnson
 date: 06-04-2025
-categories: [Data Viz, Quarto, R, R Shiny, useR!]
+categories: [Data Viz, Quarto, R, R Shiny, useR!, Data Analysis]
 format: 
   html:
    code-fold: true
