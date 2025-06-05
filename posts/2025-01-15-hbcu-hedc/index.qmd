@@ -29,7 +29,7 @@ I'd be remiss not to mention some of the members of the workgroup: **Dr. Scott B
 
 # Leveraging Open-Source Tools
 
-We wanted choose a primary programming language for the analysis. Understandably, members of the workgroup had a variety of preferred, mostly licensed programming languages. I selected **R** as the primary language because it's **free**, **open-source**, **conducive to literate programming and research reproducibility**, and there's an **unparalleled volume of self-learning resources.**
+We wanted to choose a primary programming language for the analysis. Understandably, members of the workgroup had a variety of preferred, mostly licensed programming languages. I selected **R** as the primary language because it's **free**, **open-source**, **conducive to literate programming and research reproducibility**, and there's an **unparalleled volume of self-learning resources.**
 
 Our team at NCIPH led R workshops, compiled relevant R resources, and developed shared code for transforming raw results, descriptive statistics, and univariate regression. The workgroup used R Markdown, Quarto, and Shiny to report results, ultimately using the output as a basis for coding and analysis decisions, exploratory analyses, and dissemination of findings to NC communities.
 
