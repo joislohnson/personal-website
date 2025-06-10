@@ -10,7 +10,6 @@ format:
    title-block-banner: "#0c2c84"
 toc: true
 image: "images/table_screenshot.jpg"
-draft: true
 ---
 
 # Overview
