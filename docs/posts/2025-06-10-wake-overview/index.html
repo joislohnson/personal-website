@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Lois Adler-Johnson">
+<meta name="dcterms.date" content="2025-06-10">
+<meta name="description" content="Sourcing indicators from NC data tools and developing more accessible summary tables for the 2025 Wake County CHNA.">
 
-<title>Portfolio</title>
+<title>An Attempt at Streamlining Secondary Data Analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e00cd03a019a913fce680f16997a4409.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-e00cd03a019a913fce680f16997a4409.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,77 +70,25 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
+<style>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
+      .quarto-title-block .quarto-title-banner {
+        background: #0c2c84;
       }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
+</style>
 
-<link rel="stylesheet" href="styles.css">
+
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Lois Adler-Johnson</span>
     </a>
   </div>
@@ -150,23 +99,23 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resume-cv.html"> 
+    <a class="nav-link" href="../../resume-cv.html"> 
 <span class="menu-text">Resume/CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" aria-current="page"> 
+    <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./makes.html"> 
+    <a class="nav-link" href="../../makes.html"> 
 <span class="menu-text">Makes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html"> 
+    <a class="nav-link" href="../../resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
 </ul>
@@ -199,182 +148,125 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">An Attempt at Streamlining Secondary Data Analysis</h1>
+                  <div>
+        <div class="description">
+          Sourcing indicators from NC data tools and developing more accessible summary tables for the 2025 Wake County CHNA.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Data Viz</div>
+                <div class="quarto-category">Quarto</div>
+                <div class="quarto-category">R</div>
+                <div class="quarto-category">Community Health Assessment</div>
+                <div class="quarto-category">Secondary Data</div>
+                <div class="quarto-category">Data Analysis</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Lois Adler-Johnson </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">June 10, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Q29tbXVuaXR5JTIwSGVhbHRoJTIwQXNzZXNzbWVudA==">Community Health Assessment <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGF0YSUyMEFuYWx5c2lz">Data Analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RGF0YSUyMFZpeg==">Data Viz <span class="quarto-category-count">(3)</span></div><div class="category" data-category="TWFwcGluZw==">Mapping <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UXVhcnRv">Quarto <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(3)</span></div><div class="category" data-category="UiUyMFNoaW55">R Shiny <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U2Vjb25kYXJ5JTIwRGF0YQ==">Secondary Data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dXNlUiE=">useR! <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a>
+  <ul class="collapse">
+  <li><a href="#indicator-list" id="toc-indicator-list" class="nav-link" data-scroll-target="#indicator-list">Develop Prioritized Indicator List</a></li>
+  <li><a href="#leverage-data-repositories" id="toc-leverage-data-repositories" class="nav-link" data-scroll-target="#leverage-data-repositories">Leverage Data Repositories</a></li>
+  <li><a href="#develop-useful-and-accessible-deliverables" id="toc-develop-useful-and-accessible-deliverables" class="nav-link" data-scroll-target="#develop-useful-and-accessible-deliverables">Develop Useful and Accessible Deliverables</a></li>
+  </ul></li>
+  <li><a href="#lessons-learned" id="toc-lessons-learned" class="nav-link" data-scroll-target="#lessons-learned">Lessons Learned</a>
+  <ul class="collapse">
+  <li><a href="#stick-to-a-single-approach" id="toc-stick-to-a-single-approach" class="nav-link" data-scroll-target="#stick-to-a-single-approach">Stick to a Single Approach</a></li>
+  <li><a href="#enhance-data-accessibility" id="toc-enhance-data-accessibility" class="nav-link" data-scroll-target="#enhance-data-accessibility">Enhance Data Accessibility</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Portfolio</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>Working with secondary data in public health can be challenging. It feels like the public health data harmonization olympics, where the events include pulling, transforming, merging, analyzing, and communicating head-spinning amounts of data that span almost a dozen topics.</p>
+<p>It’s no surprise I learn something every time I’m asked to support this process, whether it’s a new-to-me data repository I can access, an R package that can eliminate 50 lines of code, or even a philosophical approach that pushes me to think more critically about the big picture.</p>
+<p>In this blog, I discuss how <a href="https://sph.unc.edu/nciph/ta/">our team at NCIPH</a> attempted to streamline the secondary data analyses for Wake County’s 2025 Community Health Needs Assessment (CHNA). I’ll also reflect on the lessons I learned <strong>this</strong> time around.</p>
+<p>Stay tuned for a more technical follow-up post with reproducible R code that walks through our process for developing the final tables!</p>
+</section>
+<section id="approach" class="level1">
+<h1>Approach</h1>
+<section id="indicator-list" class="level2">
+<h2 class="anchored" data-anchor-id="indicator-list">Develop Prioritized Indicator List</h2>
+<p>CHNA’s cover a wide range of topics, from Demographics, Access to Care, Community Cohesion, Reproductive &amp; Child Health, and more. This makes it easy to accrue a very long list of indicators, and an excess of data makes it more challenging to identify key insights about the assets and needs of the community.</p>
+<p><strong>Spending extra time in this phase of the project is well worth it.</strong> A more focused dataset tends to include higher quality data and does a better job at generating actionable insights and digestible data stories. For this project, we worked alongside the steering committee’s Secondary Data Analysis Workgroup to collaboratively identify the most important indicators to collect for each topic.</p>
+</section>
+<section id="leverage-data-repositories" class="level2">
+<h2 class="anchored" data-anchor-id="leverage-data-repositories">Leverage Data Repositories</h2>
+<p>It takes a lot of effort to harmonize and report secondary data. By the time we finally have a harmonzied dataset, it can feel like there isn’t enough remaining time to thoughtfully investigate and communicate trends from our thoroughly curated dataset.</p>
+<p>For the 2025 Wake CHNA, we worked alongside our partners to simplify our pulling and harmonization efforts: instead of tracking down 80+ indicators from their respective sources, <strong>we suggested streamlining secondary data analyses by sourcing <em>most</em> of our indicators from the <a href="https://ncdataportal.org/">NC Data Portal</a> and <a href="https://healthycommunitiesnc.org/community-data">Cape Fear Collective’s Community Data Platform</a></strong>.</p>
+</section>
+<section id="develop-useful-and-accessible-deliverables" class="level2">
+<h2 class="anchored" data-anchor-id="develop-useful-and-accessible-deliverables">Develop Useful and Accessible Deliverables</h2>
+<p>Historically, secondary data tables are buried in dozens of pages in the final CHNA report. This is an issue for a few reasons:</p>
+<ul>
+<li><p>Integrating 80+ tables into a stylized Word document or PDF requires tedious programming alongside inevitable manual tweaks.</p></li>
+<li><p>Developing 80+ tables that comply with <a href="https://www.w3.org/TR/WCAG22/">Web Content Accessibility Guidelines 2.2 Level AA standards</a> in Word and PDF formats is extremely challenging.</p></li>
+<li><p>This format is largely useless for those who want to access the data!</p></li>
+</ul>
+<p>With these historical limitations in mind, we worked alongside our partners to develop an <a href="https://livewellwake.org/priorities/">HTML report</a> with the data tables that meets WCAG 2.0 (Level AA) guidelines* and a <a href="https://docs.google.com/spreadsheets/d/1xOPjVWS8V2dPsNLEBXAe9KG9NQtau7qMNFX5kShiwso/edit?usp=sharing">downloadable dataset and data dictionary</a> with the secondary data shown in the report.</p>
+<p>Ultimately, this means community members can visit the Live Well Wake website to <a href="https://livewellwake.org/priorities/">investigate the tables</a> (instead of scrolling to the appendix of the report document) and <a href="https://docs.google.com/spreadsheets/d/1xOPjVWS8V2dPsNLEBXAe9KG9NQtau7qMNFX5kShiwso/edit?usp=sharing">use the dataset</a> to conduct their own exploratory analyses or create their own visualizations.</p>
+<p><em>*Note: While the report meets WCAG 2.0 guidelines, the webpage it’s hosted on does not.</em></p>
+</section>
+</section>
+<section id="lessons-learned" class="level1">
+<h1>Lessons Learned</h1>
+<section id="stick-to-a-single-approach" class="level2">
+<h2 class="anchored" data-anchor-id="stick-to-a-single-approach">Stick to a Single Approach</h2>
+<p>While leveraging data repositories was helpful in streamlining the analysis of roughly 50% of our indicators, we still had to source data for the remaining half.</p>
+<p>Moving forward, I’d lean towards recommending a single approach to our partners (i.e., everything from NC data tools) to truly streamline these efforts, acknowledging that there may be a handful of indicators unique to local interests that we track down outside of the data tools. <strong>This would free up our time, allowing us to focus on meaningfully interpreting, visualizing, and presenting the data</strong>.</p>
+</section>
+<section id="enhance-data-accessibility" class="level2">
+<h2 class="anchored" data-anchor-id="enhance-data-accessibility">Enhance Data Accessibility</h2>
+<p>The <a href="https://docs.google.com/spreadsheets/d/1xOPjVWS8V2dPsNLEBXAe9KG9NQtau7qMNFX5kShiwso/edit?usp=sharing">dataset</a> and <a href="https://livewellwake.org/priorities/">webpage</a> with the tables is a step up from being buried in a 200-page document. However, there’s work to be done to make the data more accessible. For example, I’d love think through how we can incorporate more interactive components for users. While several exciting and shiny ideas come to mind, <strong>I’m interested in asking community members, steering committee members, and our partners what’s on their wishlist</strong>.</p>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="RGF0YSUyMFZpeiUyQ1F1YXJ0byUyQ1IlMkNDb21tdW5pdHklMjBIZWFsdGglMjBBc3Nlc3NtZW50JTJDU2Vjb25kYXJ5JTIwRGF0YSUyQ0RhdGElMjBBbmFseXNpcw==" data-listing-date-sort="1749528000000" data-listing-file-modified-sort="1749573845102" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="701">
-<div class="thumbnail">
-<p><a href="./posts/2025-06-10-wake-overview/index.html" class="no-external"></a></p><a href="./posts/2025-06-10-wake-overview/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/2025-06-10-wake-overview/images/table_screenshot.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/2025-06-10-wake-overview/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025-06-10-wake-overview/index.html" class="no-external">An Attempt at Streamlining Secondary Data Analysis</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2025-06-10-wake-overview/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMFZpeg=='); return false;">
-Data Viz
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('UXVhcnRv'); return false;">
-Quarto
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Q29tbXVuaXR5JTIwSGVhbHRoJTIwQXNzZXNzbWVudA=='); return false;">
-Community Health Assessment
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('U2Vjb25kYXJ5JTIwRGF0YQ=='); return false;">
-Secondary Data
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMEFuYWx5c2lz'); return false;">
-Data Analysis
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2025-06-10-wake-overview/index.html" class="no-external">Sourcing indicators from NC data tools and developing more accessible summary tables for the 2025 Wake County CHNA.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2025-06-10-wake-overview/index.html" class="no-external">
-<div class="listing-date">
-Jun 10, 2025
-</div>
-<div class="listing-author">
-Lois Adler-Johnson
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="RGF0YSUyMFZpeiUyQ1F1YXJ0byUyQ1IlMkNSJTIwU2hpbnklMkN1c2VSISUyQ0RhdGElMjBBbmFseXNpcw==" data-listing-date-sort="1749009600000" data-listing-file-modified-sort="1749128876586" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="496">
-<div class="thumbnail">
-<p><a href="./posts/2025-01-15-hbcu-hedc/index.html" class="no-external"></a></p><a href="./posts/2025-01-15-hbcu-hedc/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/2025-01-15-hbcu-hedc/images/hbcu-hedc-pic.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/2025-01-15-hbcu-hedc/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025-01-15-hbcu-hedc/index.html" class="no-external">Co-Creating Inclusive Data Analysis Approaches</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2025-01-15-hbcu-hedc/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMFZpeg=='); return false;">
-Data Viz
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('UXVhcnRv'); return false;">
-Quarto
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('UiUyMFNoaW55'); return false;">
-R Shiny
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('dXNlUiE='); return false;">
-useR!
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMEFuYWx5c2lz'); return false;">
-Data Analysis
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2025-01-15-hbcu-hedc/index.html" class="no-external">Using open source tools and forming a data analysis workgroup to support the HBCU Health Equity Data Consortium.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2025-01-15-hbcu-hedc/index.html" class="no-external">
-<div class="listing-date">
-Jun 4, 2025
-</div>
-<div class="listing-author">
-Lois Adler-Johnson
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="RGF0YSUyMFZpeiUyQ1F1YXJ0byUyQ1IlMkNNYXBwaW5n" data-listing-date-sort="1735016400000" data-listing-file-modified-sort="1749039541045" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1922">
-<div class="thumbnail">
-<p><a href="./posts/2024-12-24-svi-analysis/index.html" class="no-external"></a></p><a href="./posts/2024-12-24-svi-analysis/index.html" class="no-external">
-<p class="card-img-top"><img src="posts\2024-12-24-svi-analysis\index_files\figure-html\unnamed-chunk-6-1.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2024-12-24-svi-analysis/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2024-12-24-svi-analysis/index.html" class="no-external">Wake County SVI Analysis</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-12-24-svi-analysis/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMFZpeg=='); return false;">
-Data Viz
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('UXVhcnRv'); return false;">
-Quarto
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('TWFwcGluZw=='); return false;">
-Mapping
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2024-12-24-svi-analysis/index.html" class="no-external">Mapping geographic disparities in social vulnerability factors in Wake County, NC.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2024-12-24-svi-analysis/index.html" class="no-external">
-<div class="listing-date">
-Dec 24, 2024
-</div>
-<div class="listing-author">
-Lois Adler-Johnson
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+
+</section>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

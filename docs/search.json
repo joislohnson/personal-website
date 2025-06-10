@@ -4,7 +4,7 @@
     "href": "posts.html",
     "title": "Portfolio",
     "section": "",
-    "text": "Co-Creating Inclusive Data Analysis Approaches\n\n\n\n\n\n\nData Viz\n\n\nQuarto\n\n\nR\n\n\nR Shiny\n\n\nuseR!\n\n\nData Analysis\n\n\n\nUsing open source tools and forming a data analysis workgroup to support the HBCU Health Equity Data Consortium.\n\n\n\n\n\nJun 4, 2025\n\n\nLois Adler-Johnson\n\n\n\n\n\n\n\n\n\n\n\n\nWake County SVI Analysis\n\n\n\n\n\n\nData Viz\n\n\nQuarto\n\n\nR\n\n\nMapping\n\n\n\nMapping geographic disparities in social vulnerability factors in Wake County, NC.\n\n\n\n\n\nDec 24, 2024\n\n\nLois Adler-Johnson\n\n\n\n\n\n\nNo matching items"
+    "text": "An Attempt at Streamlining Secondary Data Analysis\n\n\n\n\n\n\nData Viz\n\n\nQuarto\n\n\nR\n\n\nCommunity Health Assessment\n\n\nSecondary Data\n\n\nData Analysis\n\n\n\nSourcing indicators from NC data tools and developing more accessible summary tables for the 2025 Wake County CHNA.\n\n\n\n\n\nJun 10, 2025\n\n\nLois Adler-Johnson\n\n\n\n\n\n\n\n\n\n\n\n\nCo-Creating Inclusive Data Analysis Approaches\n\n\n\n\n\n\nData Viz\n\n\nQuarto\n\n\nR\n\n\nR Shiny\n\n\nuseR!\n\n\nData Analysis\n\n\n\nUsing open source tools and forming a data analysis workgroup to support the HBCU Health Equity Data Consortium.\n\n\n\n\n\nJun 4, 2025\n\n\nLois Adler-Johnson\n\n\n\n\n\n\n\n\n\n\n\n\nWake County SVI Analysis\n\n\n\n\n\n\nData Viz\n\n\nQuarto\n\n\nR\n\n\nMapping\n\n\n\nMapping geographic disparities in social vulnerability factors in Wake County, NC.\n\n\n\n\n\nDec 24, 2024\n\n\nLois Adler-Johnson\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2024-12-24-svi-analysis/index.html",
@@ -156,6 +156,48 @@
   {
     "objectID": "posts/2025-06-10-wake/index.html#enhance-data-accessibility",
     "href": "posts/2025-06-10-wake/index.html#enhance-data-accessibility",
+    "title": "An Attempt at Streamlining Secondary Data Analysis",
+    "section": "Enhance Data Accessibility",
+    "text": "Enhance Data Accessibility\nThe dataset and webpage with the tables is a step up from being buried in a 200-page document. However, there’s work to be done to make the data more accessible. For example, I’d love think through how we can incorporate more interactive components for users. While several exciting and shiny ideas come to mind, I’m interested in asking community members, steering committee members, and our partners what’s on their wishlist."
+  },
+  {
+    "objectID": "posts/2025-06-10-wake-overview/index.html",
+    "href": "posts/2025-06-10-wake-overview/index.html",
+    "title": "An Attempt at Streamlining Secondary Data Analysis",
+    "section": "",
+    "text": "Working with secondary data in public health can be challenging. It feels like the public health data harmonization olympics, where the events include pulling, transforming, merging, analyzing, and communicating head-spinning amounts of data that span almost a dozen topics.\nIt’s no surprise I learn something every time I’m asked to support this process, whether it’s a new-to-me data repository I can access, an R package that can eliminate 50 lines of code, or even a philosophical approach that pushes me to think more critically about the big picture.\nIn this blog, I discuss how our team at NCIPH attempted to streamline the secondary data analyses for Wake County’s 2025 Community Health Needs Assessment (CHNA). I’ll also reflect on the lessons I learned this time around.\nStay tuned for a more technical follow-up post with reproducible R code that walks through our process for developing the final tables!"
+  },
+  {
+    "objectID": "posts/2025-06-10-wake-overview/index.html#indicator-list",
+    "href": "posts/2025-06-10-wake-overview/index.html#indicator-list",
+    "title": "An Attempt at Streamlining Secondary Data Analysis",
+    "section": "Develop Prioritized Indicator List",
+    "text": "Develop Prioritized Indicator List\nCHNA’s cover a wide range of topics, from Demographics, Access to Care, Community Cohesion, Reproductive & Child Health, and more. This makes it easy to accrue a very long list of indicators, and an excess of data makes it more challenging to identify key insights about the assets and needs of the community.\nSpending extra time in this phase of the project is well worth it. A more focused dataset tends to include higher quality data and does a better job at generating actionable insights and digestible data stories. For this project, we worked alongside the steering committee’s Secondary Data Analysis Workgroup to collaboratively identify the most important indicators to collect for each topic."
+  },
+  {
+    "objectID": "posts/2025-06-10-wake-overview/index.html#leverage-data-repositories",
+    "href": "posts/2025-06-10-wake-overview/index.html#leverage-data-repositories",
+    "title": "An Attempt at Streamlining Secondary Data Analysis",
+    "section": "Leverage Data Repositories",
+    "text": "Leverage Data Repositories\nIt takes a lot of effort to harmonize and report secondary data. By the time we finally have a harmonzied dataset, it can feel like there isn’t enough remaining time to thoughtfully investigate and communicate trends from our thoroughly curated dataset.\nFor the 2025 Wake CHNA, we worked alongside our partners to simplify our pulling and harmonization efforts: instead of tracking down 80+ indicators from their respective sources, we suggested streamlining secondary data analyses by sourcing most of our indicators from the NC Data Portal and Cape Fear Collective’s Community Data Platform."
+  },
+  {
+    "objectID": "posts/2025-06-10-wake-overview/index.html#develop-useful-and-accessible-deliverables",
+    "href": "posts/2025-06-10-wake-overview/index.html#develop-useful-and-accessible-deliverables",
+    "title": "An Attempt at Streamlining Secondary Data Analysis",
+    "section": "Develop Useful and Accessible Deliverables",
+    "text": "Develop Useful and Accessible Deliverables\nHistorically, secondary data tables are buried in dozens of pages in the final CHNA report. This is an issue for a few reasons:\n\nIntegrating 80+ tables into a stylized Word document or PDF requires tedious programming alongside inevitable manual tweaks.\nDeveloping 80+ tables that comply with Web Content Accessibility Guidelines 2.2 Level AA standards in Word and PDF formats is extremely challenging.\nThis format is largely useless for those who want to access the data!\n\nWith these historical limitations in mind, we worked alongside our partners to develop an HTML report with the data tables that meets WCAG 2.0 (Level AA) guidelines* and a downloadable dataset and data dictionary with the secondary data shown in the report.\nUltimately, this means community members can visit the Live Well Wake website to investigate the tables (instead of scrolling to the appendix of the report document) and use the dataset to conduct their own exploratory analyses or create their own visualizations.\n*Note: While the report meets WCAG 2.0 guidelines, the webpage it’s hosted on does not."
+  },
+  {
+    "objectID": "posts/2025-06-10-wake-overview/index.html#stick-to-a-single-approach",
+    "href": "posts/2025-06-10-wake-overview/index.html#stick-to-a-single-approach",
+    "title": "An Attempt at Streamlining Secondary Data Analysis",
+    "section": "Stick to a Single Approach",
+    "text": "Stick to a Single Approach\nWhile leveraging data repositories was helpful in streamlining the analysis of roughly 50% of our indicators, we still had to source data for the remaining half.\nMoving forward, I’d lean towards recommending a single approach to our partners (i.e., everything from NC data tools) to truly streamline these efforts, acknowledging that there may be a handful of indicators unique to local interests that we track down outside of the data tools. This would free up our time, allowing us to focus on meaningfully interpreting, visualizing, and presenting the data."
+  },
+  {
+    "objectID": "posts/2025-06-10-wake-overview/index.html#enhance-data-accessibility",
+    "href": "posts/2025-06-10-wake-overview/index.html#enhance-data-accessibility",
     "title": "An Attempt at Streamlining Secondary Data Analysis",
     "section": "Enhance Data Accessibility",
     "text": "Enhance Data Accessibility\nThe dataset and webpage with the tables is a step up from being buried in a 200-page document. However, there’s work to be done to make the data more accessible. For example, I’d love think through how we can incorporate more interactive components for users. While several exciting and shiny ideas come to mind, I’m interested in asking community members, steering committee members, and our partners what’s on their wishlist."
