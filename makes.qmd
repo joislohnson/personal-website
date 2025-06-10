@@ -30,7 +30,6 @@ I love to learn different crafts and create special things for loved ones. Here 
 :::
 
 ::: {layout="[1, 1, 1]"}
-
 ![Juniper tree cross-stitch](files/makes/juniper.jpg){group="makes" description="I cross-stitched this juniper tree for my niece Juniper. The pattern from [Axebe](https://www.etsy.com/shop/Axebe) is no longer available." width="350"}
 
 ![Craft case](files/makes/knitting-organizer.jpg){group="makes" description="Cool Stitches [craft case](https://cool-stitches.com/shop/craft-case-pdf-pattern/)—I use it to keep my knitting tools organized." width="350"}
@@ -39,7 +38,6 @@ I love to learn different crafts and create special things for loved ones. Here 
 :::
 
 ::: {layout="[1, 1, 1]"}
-
 ![Christmas tree skirt #1](files/makes/tree-skirt-2.jpg){group="makes" description="[Christmas tree skirt pattern](https://blog.treasurie.com/christmas-tree-skirt-pattern/) from Treasurie." width="350"}
 
 ![Christmas tree skirt #2](files/makes/tree-skirt.jpg){group="makes" description="Another [Christmas tree skirt](https://blog.treasurie.com/christmas-tree-skirt-pattern/) from Treasurie with my favorite cowboy fabric." width="350"}
@@ -48,21 +46,17 @@ I love to learn different crafts and create special things for loved ones. Here 
 :::
 
 ::: {layout="[1, 1, 1]"}
-
 ![Risograph valentine (front)](files/makes/valentine-front.jpg){group="makes" description="I took an awesome valentine-themed risograph class at [Super G Print Lab](https://www.screenprintworkshop.com/). I was super happy with how my cards turned out! This is the front side of the card." width="350"}
 
 ![Risograph valentine (back)](files/makes/valentine-back.jpg){group="makes" description="I took an awesome valentine-themed risograph class at [Super G Print Lab](https://www.screenprintworkshop.com/). I was super happy with how my cards turned out! This is the back side of the card." width="350"}
 
 ![Swallows embroidery](files/makes/emmaline-embroidery.jpg){group="makes" description="Little Jo and Co's [swallows embroidery pattern](https://www.etsy.com/listing/957343893/swallows-embroidery-pattern-pdf-digital?ref=yr_purchases) for my niece Emmaline." width="350"}
-
 :::
 
 ::: {layout="[1, 1, 1]"}
-
 ![Stained glass](files/makes/stained-glass.jpg){group="makes" description="I took my dad to a stained glass class at the [Clifton Cultural Arts Center](https://cliftonculturalarts.org/). It was way harder than I thought it'd be and my piece ended up looking pretty goofy, but we had a blast together!" width="350"}
 
 ![Wedding arbor](files/makes/wedding-arbor.jpg){group="makes" description="Lloyd and I had a disco-themed wedding and we made this arbor with our friend Willa using some of my grandparents' old records." width="350"}
 
 ![Spaceship + space goose](files/makes/spaceship.jpg){group="makes" description="My friend Kate had an alien-themed birthday party around the time Virgin Galactic launched, so I felt inspired to build a spaceship prop." width="350"}
-
 :::

@@ -1,0 +1,435 @@
+---
+title: "An Attempt at Streamlining Secondary Data Analysis"
+description: "Sourcing indicators from NC data tools and using R + Quarto to generate summary tables for the 2025 Wake County CHNA."
+author:
+  - name: Lois Adler-Johnson
+date: 06-10-2025
+categories: [Data Viz, Quarto, R, Community Health Assessment, Secondary Data, Data Analysis]
+format: 
+  html:
+   #code-fold: true
+   title-block-banner: "#0c2c84"
+toc: true
+#image: "images/hbcu-hedc-pic.png"
+draft: true
+---
+
+# Overview
+
+Working with secondary data in public health can be challenging. It often involves pulling data from dozens of sources (each with its own limitations), cleaning dozens of datasets, and merging dozens of datasets into a single file. I learn something every time I'm asked to support this process, whether it's a new-to-me data repository I can access, an R package that can eliminate 50 lines of code, or even a philosophical approach that pushes me to think more critically about the big picture.
+
+In this blog, I discuss how I attempted to streamline the secondary data analyses for Wake County's 2025 Community Health Needs Assessment (CHNA). I'll also reflect on the lessons I learned **this** time around.
+
+Stay tuned for a more technical follow-up post with reproducible R code that walks through our process for developing the final tables!
+
+# Approach
+
+## Develop Prioritized Indicator List {#indicator-list}
+
+CHNA's cover a wide range of topics, from Demographics, Access to Care, Community Cohesion, Reproductive & Child Health, and more. This makes it easy to accrue a very long list of indicators.
+
+For this project, our team at NCIPH worked alongside the steering committee's Secondary Data Analysis Workgroup to collaboratively identify the most important indicators to collect for each topic. **Spending extra time in this phase of the project is well worth it.**
+
+## Leverage Data Repositories
+
+Because of the sheer amount of effort it takes to produce secondary data deliverables, we generally don’t have sufficient time to thoughtfully investigate and communicate trends from our thoroughly curated dataset.
+
+For the 2025 Wake CHNA, we worked alongside our partners to simplify our approach: instead of tracking down and pulling 80+ indicators from their respective sources, **we suggested that we streamline secondary data analyses by sourcing *most* of our indicators from the [NC Data Portal](https://ncdataportal.org/) or [Cape Fear Collective’s Community Data Platform](https://healthycommunitiesnc.org/community-data)**.
+
+## Develop Useful and Accessible Deliverables
+
+Historically, secondary data tables are buried in dozens of pages in the final CHNA report. This is an issue for a few reasons:
+
+1.  Integrating 80+ tables into a stylized Word document or PDF requires tedious programming alongside inevitable manual tweaks.
+
+2.  Developing 80+ tables that comply with [Web Content Accessibility Guidelines 2.2 Level AA standards](https://policies.unc.edu/TDClient/2833/Portal/KB/ArticleDet?ID=131329) in Word and PDF formats is extremely challenging.
+
+3.  This format is largely useless for those who want to access the data!
+
+\[insert description of what our team landed on\]
+
+# Process
+
+## Getting Started
+
+### Download Data
+
+We pulled data from a variety of data sources, including the U.S. Census Bureau, the North Carolina State Center for Health Statistics, the Centers for Disease Control and Prevention, and other key local, state, and federal agencies. Where possible, the team leveraged the following North-Carolina-specific secondary data tools to efficiently collect data: [North Carolina Data Portal](https://ncdataportal.org/) (NCDP) and [Cape Fear Collective’s Community Data Platform](https://healthycommunitiesnc.org/community-data). In this walk-through, I'll focus on the process we followed for the indicators we pulled from the [NCDP](https://ncdataportal.org/).
+
+To download the data, navigate to **Data \> [Community Health Assessment](https://ncdataportal.org/community-health-needs-assessment/)**. For our analysis, comparisons were made between Wake County, North Carolina overall, and Mecklenburg County, so we selected **Wake County, NC** and **Mecklenburg County, NC** as our assessment locations. We then selected available indicators from our [prioritized list](#indicator-list), generated a report, and downloaded the data as an Excel table.
+
+![](images/nc-data-portal.gif)
+
+Want to follow along and run the subsequent code blocks? Download and use this snapshot **\[INSERT LINK\]** of the actual data we pulled from the NCDP in Fall 2024.
+
+### Load Libraries
+
+Now that we've downloaded the data, let's write some R code to begin working with the data. We'll start by loading the packages we need for our analysis.
+
+```{r}
+#| output: false
+
+library(grateful) # package citations
+library(tidyverse) # data wrangling
+library(knitr) # report generation
+library(tidyverse) # data wrangling
+library(janitor) # clean up
+library(labelled) # variable labels; compatible with dplyr 
+library(readxl) # reading in excel files
+library(gtsummary) # statistical tests and tables
+library(gt) # Editing GT tables
+library(openxlsx) # writing excel files
+```
+
+### Import Data
+
+The file we outputted has 2 sheets. The first sheet is the report output, which includes the indicators, indicator metadata, and the values for each location. The second sheet contains the data sources for each indicator.
+
+We'll import each sheet as it's own tibble so we can join the data sources to our indicator table.
+
+```{r}
+#| output: false
+
+ncdp_file_path <- "data/input/nc-data-portal-report.xlsx"
+
+## Data Portal Report ####
+ncdp_report <- read_excel(ncdp_file_path) %>%
+  clean_names() %>%
+  select(-usa, -report_location)
+## Data Sources ####
+ncdp_data_sources <- read_excel(ncdp_file_path, sheet = 2) %>%
+  clean_names() %>% 
+  # Data category already exists in the report file
+  select(-data_category) %>%
+  mutate(
+    # Create a new column for notes
+    ncdp_notes = str_extract(source, "^Note:.*(?=Data Source:)"),
+    # Extract the "Data Source: " prefix from the source column
+    source = str_remove(source, ".*Data Source: "))
+
+
+```
+
+### Transform
+
+Data harmonization is the next step of the process. In other words, we need to standardize the NCDP indicators into a unified format to allow for integration with the dozens of other datasets we pull from.
+
+This step includes:
+
+-   Joining the report table to data sources
+
+-   [Tidying](https://r4ds.hadley.nz/data-tidy.html) the data
+
+-   Using existing variables to create new variables that match our harmonized format (ex. data category \> theme)
+
+-   Standardizing variables
+
+-   Cleaning (ex. removing leading or trailing white space)
+
+```{r}
+#| output: false
+
+# TRANSFORM INDICATOR DATA INTO NEW FORMAT ####
+ncdp_indicators <- ncdp_report %>%
+  
+  # Join data source information to the data portal report sheet
+  left_join(
+    ncdp_data_sources, 
+    by = "data_indicator",
+    relationship = "many-to-many") %>%
+  
+  # Pivot the data to a long format based on region
+  pivot_longer(
+    cols = c(north_carolina, mecklenburg_county_nc, wake_county_nc),
+    names_to = "region",
+    values_to = "indicator_value") %>%
+  
+  rename(indicator_desc = indicator_attribute) %>%
+  
+  mutate(
+    # Add notes
+    notes = case_when(
+      data_indicator == "Access - Childcare Cost Burden" ~ "The 2024 Annual Data Release for County Health Rankings used data from 2023 & 2022 for this indicator.",
+      str_detect(source, "September 2024") ~ "This data is from September 2024.",
+      TRUE ~ as.character(NA)),
+    
+    # Update region names
+    region = case_when(
+      region == "north_carolina" ~ "North Carolina",
+      region == "mecklenburg_county_nc" ~ "Mecklenburg",
+      region == "wake_county_nc" ~ "Wake County",
+      TRUE ~ region),
+    
+    # Create indicator_bycategory variable
+    indicator_bycategory = str_to_lower(str_extract(data_indicator, "by [^,]*")),
+    indicator_bycategory = case_when(
+      str_detect(indicator_bycategory, "age") ~ "by age",
+      str_detect(indicator_bycategory, "by race alone") ~ "by race",
+      str_detect(indicator_bycategory, "race and ethnicity") ~ "by race and ethnicity",
+      str_detect(indicator_bycategory, "race / ethnicity") ~ "by race and ethnicity",
+      str_detect(indicator_bycategory, "hispanic origin") ~ "by race and ethnicity",
+      str_detect(indicator_bycategory, "by ethnicity") ~ "by ethnicity",
+      str_detect(indicator_bycategory, "disability") ~ "by type",
+      indicator_bycategory %in% c("by year", "by time period", "by tenure") ~ NA,
+      TRUE ~ paste(indicator_bycategory)),
+    
+    # Map data_category to theme
+    theme = case_when(
+      data_indicator == "Access to Care - Mental Health Providers" ~ "Mental Health & Substance Use",
+      data_indicator == "Access - Childcare Cost Burden" ~ "Reproductive and Child Health",
+      data_indicator == "Poverty - Children Below 200% FPL" ~ "Reproductive and Child Health",
+      str_detect(data_indicator, "Opioid Overdose") ~ "Mental Health & Substance Use",
+      str_detect(data_indicator, "Suicide") ~ "Mental Health & Substance Use",
+      str_detect(data_category, "Economic") | data_category == "Employment" ~ "Economic Opportunity",
+      str_detect(data_indicator, "Food") | str_detect(data_indicator, "Grocery") ~ "Community Cohesion", 
+      str_detect(data_category, "Physical") ~ "Housing, Neighborhood, & Physical Environment",
+      str_detect(data_category, "Neighborhood") ~ "Housing, Neighborhood, & Physical Environment",
+      str_detect(data_category, "Healthcare") ~ "Access to Care",
+      data_category == "Health Behaviors" ~ "Mental Health & Substance Use",
+      data_category == "Health Outcomes" ~ "Disease, Illness, & Injury",
+      TRUE ~ paste(data_category)),
+    
+    # Create year_c variable
+    year_c = str_trim(str_extract(source, "(?<=\\.)[^.]+(?=\\.$)")),
+    
+    # Clean up year_c
+    year_c = case_when(
+      str_detect(data_indicator, "Population Receiving SNAP Benefits") ~ paste(indicator_desc),
+      str_detect(data_indicator, "High School Graduation Rate by Year") & indicator_desc == "2016-17" ~ "2016-2017",
+      str_detect(data_indicator, "High School Graduation Rate by Year") & indicator_desc == "2017-18" ~ "2017-2018",
+      str_detect(data_indicator, "Recreation and Fitness Facilities") ~ paste(indicator_desc),
+      str_detect(data_indicator, "Grocery Stores and Supermarkets") ~ paste(indicator_desc),
+      str_detect(data_indicator, "Uninsured Population Under Age 65, Percent by Year") ~ paste(indicator_desc),
+      str_detect(data_indicator, "Adults with Diagnosed Diabetes by Year") ~ paste(indicator_desc),
+      data_indicator == "Employment - Unemployment Rate" ~ "2024",
+      year_c == "2018-22" ~ "2018-2022",
+      year_c == "2020-21" ~ "2020-2021",
+      year_c == "2017-21" ~ "2017-2021",
+      year_c == "2023&2022" ~ "2024",
+      year_c == "September 2024" ~ "2024",
+      data_indicator == "Average Annual Unemployment Rate, 2013-2023" ~ paste(indicator_desc),
+      TRUE ~ paste(year_c)),
+    
+    # Create year variable based on year_c variable
+    year = if_else(
+      str_detect(year_c, "-"),
+      str_extract(year_c, "(?<=-)\\d{4}"),
+      year_c),
+    
+    # Create indicator variable
+    indicator = data_indicator,
+    
+    # Create type variable
+    type = value_type) %>%
+  
+  # Remove data_category variable which was replaced by theme variable
+  select(-data_category) %>%
+  
+  # Create new columns for numerator_desc and denominator_desc
+  mutate(
+    numerator_desc = if_else(str_detect(value_type, "numerator"), indicator_desc, NA),
+    denominator_desc = if_else(str_detect(value_type, "denominator"), indicator_desc, NA)
+  ) %>%
+  
+  # Separate rows where value_type has multiple values
+  separate_rows(value_type, sep = ", ") %>%
+  
+  # Trim any extra spaces
+  mutate(value_type = trimws(value_type)) 
+
+
+```
+
+The table still contains multiple rows per indicator because the NCDP output included separate rows for denominators. We'll further [tidy the data](https://r4ds.hadley.nz/data-tidy.html#sec-tidy-data) and harmonize to our standardized format.
+
+```{r}
+#| output: false
+
+ncdp_tbl <- ncdp_indicators %>%
+  pivot_wider(
+    names_from = value_type,
+    values_from = indicator_value,
+    values_fill = list(indicator_value = NA) # Fill missing values with NA
+  ) %>%
+  
+  
+  # Update indicator variable
+  mutate(
+    rate_multiplier = case_when(
+      type == "rate" & str_detect(indicator_desc, "(?i)per.*") ~ str_extract(indicator_desc, "(?i)per.*"),
+      type == "rate" & str_detect(indicator, "Grocery Stores") ~ "per 100,000 Population",
+      type == "rate" & str_detect(indicator, "(?i)per.*") ~ str_extract(indicator, "(?i)per.*"),
+      TRUE ~ NA
+    ),
+      
+    rate_multiplier = case_when(
+      str_detect(rate_multiplier, "Per 100,000 Pop.") ~ "per 100,000 Population",
+      rate_multiplier == "Per 100,000 Population)" ~ "per 100,000 Population",
+      str_detect(rate_multiplier, "per 100,000 Population by Year") ~ "per 100,000 Population",
+      TRUE ~ rate_multiplier
+    ),
+    
+    indicator = case_when(
+      indicator_desc %in% c("Population Density (Per Square Mile)", "Total Land Area(Square Miles)") ~ paste(indicator_desc),
+      str_detect(indicator, "Recreation and Fitness Facilities") ~ "Recreation and Fitness Facilities",
+      str_detect(indicator, "Fast Food Restaurants") ~ "Fast Food Restaurants",
+      str_detect(indicator, "Grocery Stores and Supermarkets") ~ "Grocery Stores and Supermarkets",
+      str_ends(indicator, ", Percent") ~ str_remove(indicator, ", Percent.*"),
+      str_ends(indicator, ", Yearly Trend") ~ str_remove(indicator, ", Yearly Trend*"),
+      str_ends(indicator, ", Total") ~ str_remove(indicator, ", Total.*"),
+      str_ends(indicator, ", Rate per 100,000 Population") ~ str_remove(indicator, ", Rate.*"),
+      str_ends(indicator, ", Rate per 10,000 Housing Units") ~ str_remove(indicator, ", Rate.*"),
+      str_ends(indicator, ", Annual Rate (Per 100,000 Pop.)") ~ str_remove(indicator, ", Annual.*"),
+      str_ends(indicator, ",Annual Rate per 100,000 Population") ~ str_remove(indicator, ",Annual"),
+      str_ends(indicator, " \\(Per 100,000 Population\\)") ~ str_remove(indicator, " \\(Per*"),
+      str_detect(indicator, ", Crude Rate \\(Per 100,000 Pop\\.\\)") ~ str_remove(indicator, ", Crude Rate \\(Per 100,000 Pop\\.\\)"),
+      str_detect(indicator, "Uninsured Population Under Age 65, Percent by Year") ~ "Uninsured Population Under Age 65",
+      str_detect(indicator, "by Year") ~ str_replace(indicator, " by Year.*", ""),
+      indicator == "Average Annual Unemployment Rate, 2013-2023" ~ "Average Annual Unemployment Rate",
+      TRUE ~ indicator),
+    
+    # Update indicator_desc
+    indicator_desc = str_remove(indicator_desc, ", Percent.*"),
+    
+    indicator_desc = if_else(str_starts(indicator_desc, "2"), NA, indicator_desc)
+      
+  ) %>%
+  
+  # Smoosh duplicate rows together
+  group_by(year, region, indicator, indicator_desc) %>%
+  mutate(
+    count = first(na.omit(count)),
+    numerator = first(na.omit(numerator)),
+    denominator = first(na.omit(denominator)),
+    percent = first(na.omit(percent)),
+    rate = first(na.omit(rate))) %>%
+  ungroup() %>%
+  
+  # Smoosh denominators into other rows
+  group_by(region, year, indicator) %>%
+  mutate(
+    denominator = coalesce(denominator, first(denominator[!is.na(denominator)])),
+    denominator_desc = coalesce(denominator_desc, first(denominator_desc[!is.na(denominator_desc)]))) %>%
+  ungroup() %>%
+  
+   
+  mutate(
+    # Update type variable
+    type = case_when(
+    indicator_desc == "Number of Providers" ~ "count",
+    !is.na(dollars) ~ "dollars",
+    !is.na(count) & !is.na(percent) ~ "count and percent",
+    !is.na(rate) ~ "rate", 
+    !is.na(count) ~ "count",
+    !is.na(percent) ~ "percent",
+    TRUE ~ NA),
+    
+    # Update count variable
+    count = case_when(
+      indicator_desc == "Number of Providers" ~ numerator, 
+      type == "dollars" ~ dollars,
+      TRUE ~ count),
+    
+    # Update numerator variable
+    numerator = ifelse(indicator_desc == "Number of Providers", NA, numerator),
+    
+    # Update numerator descriptions
+    numerator_desc = case_when(
+      indicator == "Grocery Stores and Supermarkets" ~ "Number of Establishments",
+      indicator == "Grocery Stores and Supermarkets" ~ "Number of Establishments",
+      indicator == "Population Living Close to Public Transit: by Distance" ~ "Population Within 0.5 Miles of Public Transit",
+      indicator == "Average Annual Unemployment Rate, 2013-2023" ~ "Number Unemployed",
+      str_detect(indicator, "High School Graduation Rate") ~ "Number of Diplomas Issued",
+      indicator == "Recreation and Fitness Facilities" ~ "Number of Establishments",
+      TRUE ~ numerator_desc),
+    
+    # Update numerator descriptions
+    denominator_desc = case_when(
+      indicator == "Grocery Stores and Supermarkets" ~ "Total Population",
+      indicator == "Grocery Stores and Supermarkets" ~ "Total Population",
+      indicator == "Population Living Close to Public Transit: by Distance" ~ "Total Population",
+      indicator == "Average Annual Unemployment Rate, 2013-2023" ~ "Labor Force",
+      str_detect(indicator, "High School Graduation Rate") ~ "Adjusted Student Cohort",
+      indicator == "Recreation and Fitness Facilities" ~ "Total Population",
+      TRUE ~ denominator_desc)
+    
+    ) %>%
+  
+  # Identify and remove duplicates from numerator/count smooshing
+  group_by(across(-numerator_desc)) %>%
+  mutate(is_duplicate = n() > 1) %>%
+  ungroup() %>%
+  filter(!(is_duplicate == TRUE & is.na(numerator_desc))) %>%
+  
+  # Identify and remove duplicates from denominator smooshing
+  filter(!(final_indicator == 0 & is.na(count) & is.na(percent) & is.na(rate))) %>%
+  
+  # Remove unnecessary indicators 
+  filter(indicator != "Population Density (Per Square Mile)") %>%
+  
+  # Reorder columns (theme, source, region, year, year_c, indicator, indicator_desc, indicator_bycategory, type, count, percent, rate, rate_type, notes)
+  # Select only final columns 
+  select(
+    theme, 
+    source, 
+    region, 
+    year, 
+    year_c, 
+    indicator, 
+    indicator_desc, 
+    indicator_bycategory, 
+    type, 
+    count, 
+    numerator,
+    denominator,
+    percent,
+    rate, 
+    numerator_desc,
+    denominator_desc,
+    rate_multiplier,
+    notes)
+```
+
+Then we'll output the data.
+
+```{r}
+#| output: false
+
+ncdp_tbl %>% write.xlsx("data/output/ncdp.xlsx")
+```
+
+### Merge
+
+### Create Tables
+
+### Output Tables
+
+# Final Products
+
+We developed an [HTML report](https://livewellwake.org/priorities/) with the data tables that meets WCAG 2.0 (Level AA) guidelines\* and a [downloadable dataset and data dictionary](https://docs.google.com/spreadsheets/d/1xOPjVWS8V2dPsNLEBXAe9KG9NQtau7qMNFX5kShiwso/edit?usp=sharing) with the secondary data shown in the report.
+
+Ultimately, this means community members can:
+
+1.  Visit the Live Well Wake website to [investigate the tables](https://livewellwake.org/priorities/) instead of scrolling to the appendix of the report document
+
+2.  [Use the dataset](https://docs.google.com/spreadsheets/d/1xOPjVWS8V2dPsNLEBXAe9KG9NQtau7qMNFX5kShiwso/edit?usp=sharing) to conduct their own exploratory analyses or create their own visualizations.
+
+*\*Note: While the report meets WCAG 2.0 guidelines, the website it's hosted on does not.*
+
+# Lessons Learned
+
+## Stick to a Single Approach
+
+While leveraging data repositories was helpful in streamlining the analysis of roughly 50% of our indicators, we still had to source data for the remaining half. Moving forward, I'd lean towards recommending a single approach to our partners (i.e., everything from NC data tools) to truly streamline these efforts, acknowledging that there may be a handful (3-10 max.) of indicators unique to local interests that we track down outside of the data tools. **This would free up our time, allowing us to focus on meaningfully interpreting, visualizing, and presenting the data**.
+
+## Enhance Data Accessibility
+
+The dataset and standalone HTML report of the tables is a step up from being buried in a 200-page document. However, there's work to be done to make the data more accessible. For example, I'd love think through how we can incorporate more interactive components for users. While several exciting and shiny ideas come to mind, **I'm interested in asking community members, folks from the steering committee, and our partners what's on their wishlist**.
+
+# Citations
+
+```{r}
+#| warning: false
+# Add packages used to bibliography
+cite_packages(output = "table", out.dir = ".") %>% kable()
+```
