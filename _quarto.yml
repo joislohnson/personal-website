@@ -20,7 +20,7 @@ website:
         href: resources.qmd
     right:
       - text: "{{< iconify mdi:linkedin >}}"
-        href: https://www.linkedin.com/in/loiscjohnson/
+        href: https://www.linkedin.com/in/loisaj/
       - text: "{{< iconify mdi:github >}}"
         href: https://github.com/joislohnson
       - text: "{{< iconify ri:bluesky-fill >}}"

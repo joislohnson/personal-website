@@ -5,7 +5,7 @@ about:
   image: "files/headshot.jpg"
   links:
     - text: "{{< iconify mdi:linkedin >}} LinkedIn"
-      href: https://www.linkedin.com/in/loiscjohnson/
+      href: https://www.linkedin.com/in/loisaj/
     - text: "{{< iconify mdi:github >}} GitHub"
       href: https://github.com/joislohnson
     - text: "{{< iconify ri:bluesky-fill >}} Bluesky"
