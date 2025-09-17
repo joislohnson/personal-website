@@ -1,10 +1,17 @@
 [
   {
+    "objectID": "resume-cv.html",
+    "href": "resume-cv.html",
+    "title": "Resume/CV",
+    "section": "",
+    "text": "Download PDF file."
+  },
+  {
     "objectID": "posts.html",
     "href": "posts.html",
     "title": "Blog",
     "section": "",
-    "text": "An Attempt at Streamlining Secondary Data Analysis\n\n\n\n\n\n\nData Viz\n\n\nQuarto\n\n\nR\n\n\nCommunity Health Assessment\n\n\nSecondary Data\n\n\nData Analysis\n\n\n\nSourcing indicators from NC data tools and using R + Quarto to generate summary tables for the 2025 Wake County CHNA.\n\n\n\n\n\nJun 10, 2025\n\n\nLois Adler-Johnson\n\n\n\n\n\n\n\n\n\n\n\n\nAn Attempt at Streamlining Secondary Data Analysis\n\n\n\n\n\n\nData Viz\n\n\nQuarto\n\n\nR\n\n\nCommunity Health Assessment\n\n\nSecondary Data\n\n\nData Analysis\n\n\n\nSourcing indicators from NC data tools and developing more accessible summary tables for the 2025 Wake County CHNA.\n\n\n\n\n\nJun 10, 2025\n\n\nLois Adler-Johnson\n\n\n\n\n\n\n\n\n\n\n\n\nCo-Creating Inclusive Data Analysis Approaches\n\n\n\n\n\n\nData Viz\n\n\nQuarto\n\n\nR\n\n\nR Shiny\n\n\nuseR!\n\n\nData Analysis\n\n\n\nUsing open source tools and forming a data analysis workgroup to support the HBCU Health Equity Data Consortium.\n\n\n\n\n\nJun 4, 2025\n\n\nLois Adler-Johnson\n\n\n\n\n\n\n\n\n\n\n\n\nWake County SVI Analysis\n\n\n\n\n\n\nData Viz\n\n\nQuarto\n\n\nR\n\n\nMapping\n\n\n\nMapping geographic disparities in social vulnerability factors in Wake County, NC.\n\n\n\n\n\nDec 24, 2024\n\n\nLois Adler-Johnson\n\n\n\n\n\n\nNo matching items"
+    "text": "An Attempt at Streamlining Secondary Data Analysis\n\n\n\n\n\n\nData Viz\n\n\nQuarto\n\n\nR\n\n\nCommunity Health Assessment\n\n\nSecondary Data\n\n\nData Analysis\n\n\n\nSourcing indicators from NC data tools and developing more accessible summary tables for the 2025 Wake County CHNA.\n\n\n\n\n\nJun 10, 2025\n\n\nLois Adler-Johnson\n\n\n\n\n\n\n\n\n\n\n\n\nCo-Creating Inclusive Data Analysis Approaches\n\n\n\n\n\n\nData Viz\n\n\nQuarto\n\n\nR\n\n\nR Shiny\n\n\nuseR!\n\n\nData Analysis\n\n\n\nUsing open source tools and forming a data analysis workgroup to support the HBCU Health Equity Data Consortium.\n\n\n\n\n\nJun 4, 2025\n\n\nLois Adler-Johnson\n\n\n\n\n\n\n\n\n\n\n\n\nWake County SVI Analysis\n\n\n\n\n\n\nData Viz\n\n\nQuarto\n\n\nR\n\n\nMapping\n\n\n\nMapping geographic disparities in social vulnerability factors in Wake County, NC.\n\n\n\n\n\nDec 24, 2024\n\n\nLois Adler-Johnson\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2024-12-24-svi-analysis/index.html",
@@ -26,265 +33,6 @@
     "title": "Wake County SVI Analysis",
     "section": "Key Insight",
     "text": "Key Insight\nOf the 10 tracts identified as the most socially vulnerable areas, 4 are designated Opportunity Zones by the city of Raleigh. This overlap suggests the initiative is targeting areas with high social vulnerability, but could do better. Expanding Opportunity Zone tract eligibility beyond poverty and income measures could lead to improved social vulnerability among communities that have been historically marginalized. Policymakers should consider additional investment incentive programs for communities with lower rates of educational attainment and higher rates of severe housing problems, for example."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Lois Adler-Johnson",
-    "section": "",
-    "text": "Welcome! I’m Lois.\nI describe myself as a public health data scientist with a unique blend of engineering, statistics, and epidemiology expertise. I’m a skilled creative problem solver and I love to tackle complex issues collaboratively. I’m a promoter of open-source software in public health, and I’m particularly passionate about building quantitative data capacity and confidence among people without technical backgrounds.\nI currently lead the Data Strategy & Analytics team at the North Carolina Institute for Public Health. We provide advanced quantitative data skills to health departments, community-based organizations, and healthcare systems to improve the health of communities across North Carolina.\nOutside of my data endeavors, I’m a part-time baker at a local grain farm and I run a fiction book club (join us!). On any given day, you can find me walking and snuggling with my dogs, trying new recipes, and working on a range of creative projects."
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Lois Adler-Johnson",
-    "section": "Education",
-    "text": "Education\nUniversity of North Carolina at Chapel Hill | MPH in Applied Epidemiology\nGeorgia Institute of Technology | BS in Industrial & Systems Engineering | Concentration in Quality & Statistics"
-  },
-  {
-    "objectID": "resume-cv.html",
-    "href": "resume-cv.html",
-    "title": "Resume/CV",
-    "section": "",
-    "text": "Download PDF file."
-  },
-  {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources",
-    "section": "",
-    "text": "Here are some of my most referenced and shared resources. These lists are always evolving, and I welcome recommended additions!"
-  },
-  {
-    "objectID": "resources.html#best-practices",
-    "href": "resources.html#best-practices",
-    "title": "Resources",
-    "section": "Best Practices",
-    "text": "Best Practices\n\nPrinciples for Using Public Health Data to Drive Equity developed by CDC Foundation\nA Toolkit for Centering Racial Equity Throughout Data Integration developed by Actionable Intelligence for Social Policy\nA Health Equity Framework developed by the Massachusetts Health Policy Commission\nCharting a Course for an Equity-Centered Data System developed by the Robert Wood Johnson Foundation\nData Commitment and Principles developed by the Denver Public Health Department\nData Democratization: The Unsung Hero Of Health Equity developed by Health Leads\nHealth Data Governance Principles developed by Transform Health\nEquitable Evaluation Framework developed by the Equitable Evaluation Initiative\nOn Racism: A New Standard for Publishing On Racial Health Inequities authored by Rhea Boyd\nDo No Harm Guide: Applying Equity Awareness in Data Visualization developed by Urban Institute\nPowering Health Equity Action with Online Data Tools: 10 Design Principles developed by PolicyLink and Ecotrust"
-  },
-  {
-    "objectID": "resources.html#data-democratization-data-equity",
-    "href": "resources.html#data-democratization-data-equity",
-    "title": "Resources",
-    "section": "Data Democratization & Data Equity",
-    "text": "Data Democratization & Data Equity\n\nPrinciples for Using Public Health Data to Drive Equity\nA Toolkit for Centering Racial Equity Throughout Data Integration\nA Health Equity Framework\nCharting a Course for an Equity-Centered Data System\nData Commitment and Principles\nData Democratization: The Unsung Hero Of Health Equity\nHealth Data Governance Principles\nEquitable Evaluation Framework\nOn Racism: A New Standard for Publishing On Racial Health Inequities"
-  },
-  {
-    "objectID": "resources.html#r",
-    "href": "resources.html#r",
-    "title": "Resources",
-    "section": "R",
-    "text": "R\n\nEpidemiologist R Handbook\nAdvanced R\nBig Book of R\nR for Data Science (2nd Edition)\nCheatsheets"
-  },
-  {
-    "objectID": "resources.html#data-visualization",
-    "href": "resources.html#data-visualization",
-    "title": "Resources",
-    "section": "Data Visualization",
-    "text": "Data Visualization\n\nDo No Harm Guide: Applying Equity Awareness in Data Visualization\nPowering Health Equity Action with Online Data Tools: 10 Design Principles\nColorBrewer\nAccessibility and Visualization\nChartability"
-  },
-  {
-    "objectID": "resources.html#code-style",
-    "href": "resources.html#code-style",
-    "title": "Resources",
-    "section": "Code Style",
-    "text": "Code Style\n\nnaming things"
-  },
-  {
-    "objectID": "makes.html",
-    "href": "makes.html",
-    "title": "Makes",
-    "section": "",
-    "text": "I love to learn different crafts and create special things for loved ones. Here are snippets of different knitting, stitching, sewing, printmaking, etc. projects I’ve worked on over the past few years.\n\n\n\n\n\n\n\n\n\nScreenprinting process (1)\n\n\n\n\n\n\n\nScreenprinting process (2)\n\n\n\n\n\n\n\nFinal 3-layer screenprint\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKnit dog sweater\n\n\n\n\n\n\n\nBobby modeling the sweater\n\n\n\n\n\n\n\nKnit baby blanket\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLil Bucky Bag\n\n\n\n\n\n\n\nHand-sewn mini quilt\n\n\n\n\n\n\n\nDog bandana\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJuniper tree cross-stitch\n\n\n\n\n\n\n\nCraft case\n\n\n\n\n\n\n\nFree-hand mushroom embroidery\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChristmas tree skirt #1\n\n\n\n\n\n\n\nChristmas tree skirt #2\n\n\n\n\n\n\n\nTrivets\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRisograph valentine (front)\n\n\n\n\n\n\n\nRisograph valentine (back)\n\n\n\n\n\n\n\nSwallows embroidery\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStained glass\n\n\n\n\n\n\n\nWedding arbor\n\n\n\n\n\n\n\nSpaceship + space goose\n\n\n\n\n\n\n\n\n\nShot of my burned screen with my final layer, black ink, and squeegee before pulling.\n\n\nChecking out my print after pulling the final layer.\n\n\nFinal 3-layer product from the 4-week Intro to Screenprint class I took at Super G Print Lab in Durham.\n\n\nWool and the Gang’s Dog’s Life Coat—it’s the first knitting pattern I’ve ever finished!\n\n\nBobby all cozied up in the sweater before a walk on a chilly day.\n\n\nWool and the Gang’s Happy Blanket for my friend’s sweet baby Miles.\n\n\nLeila Make’s Lil Bucky Bag, perfect for knitting projects!\n\n\nI learned how to improv mini quilts with Ali at the lovely Triple Spring Studios.\n\n\nI sewed this bandana for my pals’ dog Gertie out of my favorite cowboy fabric.\n\n\nI cross-stitched this juniper tree for my niece Juniper. The pattern from Axebe is no longer available.\n\n\nCool Stitches craft case—I use it to keep my knitting tools organized.\n\n\nMy first free-handed embroidery project, inspired by all of the mushrooms in my yard.\n\n\nChristmas tree skirt pattern from Treasurie.\n\n\nAnother Christmas tree skirt from Treasurie with my favorite cowboy fabric.\n\n\nI made these fun little trivets with thrifted fabric scraps for a LOTR-themed dinner party.\n\n\nI took an awesome valentine-themed risograph class at Super G Print Lab. I was super happy with how my cards turned out! This is the front side of the card.\n\n\nI took an awesome valentine-themed risograph class at Super G Print Lab. I was super happy with how my cards turned out! This is the back side of the card.\n\n\nLittle Jo and Co’s swallows embroidery pattern for my niece Emmaline.\n\n\nI took my dad to a stained glass class at the Clifton Cultural Arts Center. It was way harder than I thought it’d be and my piece ended up looking pretty goofy, but we had a blast together!\n\n\nLloyd and I had a disco-themed wedding and we made this arbor with our friend Willa using some of my grandparents’ old records.\n\n\nMy friend Kate had an alien-themed birthday party around the time Virgin Galactic launched, so I felt inspired to build a spaceship prop."
-  },
-  {
-    "objectID": "posts/2025-01-15-hbcu-hedc/index.html#load-libraries",
-    "href": "posts/2025-01-15-hbcu-hedc/index.html#load-libraries",
-    "title": "Supporting the HBCU Health Equity Data Consortium",
-    "section": "Load Libraries",
-    "text": "Load Libraries\nLoad necessary packages to use functions throughout the document.\n\n\nCode\nlibrary(tidyverse) # data wrangling\nlibrary(knitr)\nlibrary(grateful) # package citations"
-  },
-  {
-    "objectID": "posts/2025-01-15-hbcu-hedc/index.html#citations",
-    "href": "posts/2025-01-15-hbcu-hedc/index.html#citations",
-    "title": "Supporting the HBCU Health Equity Data Consortium",
-    "section": "Citations",
-    "text": "Citations\n\n\nCode\n# Add packages used to bibliography\ncite_packages(output = \"table\", out.dir = \".\") %&gt;% kable()\n\n\n\n\n\nPackage\nVersion\nCitation\n\n\n\n\nbase\n4.3.0\nR Core Team (2023)\n\n\nknitr\n1.42\nXie (2014); Xie (2015); Xie (2023)\n\n\nrmarkdown\n2.21\nXie, Allaire, and Grolemund (2018); Xie, Dervieux, and Riederer (2020); Allaire et al. (2023)\n\n\ntidyverse\n2.0.0\nWickham et al. (2019)"
-  },
-  {
-    "objectID": "posts/2025-01-15-hbcu-hedc/index.html",
-    "href": "posts/2025-01-15-hbcu-hedc/index.html",
-    "title": "Co-Creating Inclusive Data Analysis Approaches",
-    "section": "",
-    "text": "Project Overview\nThe Historically Black Colleges and Universities (HBCU) Health Equity Data Consortium (HEDC) is a strategic collaboration of 10 HBCU and Minority Serving Institutions (MSI) across North Carolina working to address health disparities among underserved communities in our state.\nFrom February 2023 to February 2024, the HBCU HEDC deployed the COVID-19 Impact Survey to address critical data gaps on the pandemic’s impact on households across NC. Our team at the North Carolina Institute for Public Health (NCIPH) provided technical assistance for survey methods, analysis, and dissemination.\n\n\nData Analysis Workgroup\nTasked with providing capacity building support for wrangling, analyzing, and visualizing survey results, I helped form a Data Analysis Workgroup composed of faculty and students from all 10 universities within the HBCU HEDC.\nI’d be remiss not to mention some of the members of the workgroup: Dr. Scott Bradshaw (ECSU), Dr. Sabina Otienoburu (JCSU), Dr. Cynthia Williams Brown (WSSU), Dr. Martie Thompson (App State), Dr. Sherry Leviner (FSU), Melvin Jackson (Shaw/UNC-CH), Dr. Anderton-Georgie (Shaw), Dr. Dorothy C. Browne (Shaw), Dr. Nicole Diggs (NCCU), Dr. Irene Doherty (NCCU), Dr. Joe West (UNC Pembroke), Dr. Yiqing Yang (WCU), Dr. Ashley Sanderlin (NCAT), Dr. Miriam Wagner (NCAT), DeNita Murdock-Nash (NC SCHS), Dr. John Wallace (UNC-CH), and Jaquayla Hodges (UNC-CH). Shout-out to all of these amazing folks!\n\n\n\nIn-person meeting at NC A&T on January 25, 2024.\n\n\n\n\nLeveraging Open-Source Tools\nWe wanted to choose a primary programming language for the analysis. Understandably, members of the workgroup had a variety of preferred, mostly licensed programming languages. I selected R as the primary language because it’s free, open-source, conducive to literate programming and research reproducibility, and there’s an unparalleled volume of self-learning resources.\nOur team at NCIPH led R workshops, compiled relevant R resources, and developed shared code for transforming raw results, descriptive statistics, and univariate regression. The workgroup used R Markdown, Quarto, and Shiny to report results, ultimately using the output as a basis for coding and analysis decisions, exploratory analyses, and dissemination of findings to NC communities.\n\n\n\nImpact of workshops, shared code, R Markdown, Quarto, and Shiny.\n\n\n\n\nuseR! Talk\nIn July 2024, I had the opportunity to give a talk about this work at the useR! conference in Salzburg, Austria. In addition to the content mentioned above, I discussed how convening a Data Analysis Workgroup and using free, open-source R packages and tools can serve as an engaging framework to bolster data science education and autonomy.\nI encouraged fellow data scientists to:\n\nBreak out of the silo we too often find ourselves in by forming data workgroups tailored to project context\nDemystify data science by meaningfully engaging folks throughout the data lifecycle\nPromote data democratization by using free and open source tools (okay R!)"
-  },
-  {
-    "objectID": "posts/2025-06-10-wake/index.html",
-    "href": "posts/2025-06-10-wake/index.html",
-    "title": "An Attempt at Streamlining Secondary Data Analysis",
-    "section": "",
-    "text": "Working with secondary data in public health can be challenging. It feels like the public health data harmonization olympics, where the events include pulling, transforming, merging, analyzing, and communicating head-spinning amounts of data that span almost a dozen topics.\nIt’s no surprise I learn something every time I’m asked to support this process, whether it’s a new-to-me data repository I can access, an R package that can eliminate 50 lines of code, or even a philosophical approach that pushes me to think more critically about the big picture.\nIn this blog, I discuss how our team at NCIPH attempted to streamline the secondary data analyses for Wake County’s 2025 Community Health Needs Assessment (CHNA). I’ll also reflect on the lessons I learned this time around.\nStay tuned for a more technical follow-up post with reproducible R code that walks through our process for developing the final tables!"
-  },
-  {
-    "objectID": "posts/2025-06-10-wake/index.html#indicator-list",
-    "href": "posts/2025-06-10-wake/index.html#indicator-list",
-    "title": "An Attempt at Streamlining Secondary Data Analysis",
-    "section": "Develop Prioritized Indicator List",
-    "text": "Develop Prioritized Indicator List\nCHNA’s cover a wide range of topics, from Demographics, Access to Care, Community Cohesion, Reproductive & Child Health, and more. This makes it easy to accrue a very long list of indicators, and an excess of data makes it more challenging to identify key insights about the assets and needs of the community.\nSpending extra time in this phase of the project is well worth it. A more focused dataset tends to include higher quality data and does a better job at generating actionable insights and digestible data stories. For this project, we worked alongside the steering committee’s Secondary Data Analysis Workgroup to collaboratively identify the most important indicators to collect for each topic."
-  },
-  {
-    "objectID": "posts/2025-06-10-wake/index.html#leverage-data-repositories",
-    "href": "posts/2025-06-10-wake/index.html#leverage-data-repositories",
-    "title": "An Attempt at Streamlining Secondary Data Analysis",
-    "section": "Leverage Data Repositories",
-    "text": "Leverage Data Repositories\nIt takes a lot of effort to harmonize and report secondary data. By the time we finally have a harmonzied dataset, it can feel like there isn’t enough remaining time to thoughtfully investigate and communicate trends from our thoroughly curated dataset.\nFor the 2025 Wake CHNA, we worked alongside our partners to simplify our pulling and harmonization efforts: instead of tracking down 80+ indicators from their respective sources, we suggested streamlining secondary data analyses by sourcing most of our indicators from the NC Data Portal and Cape Fear Collective’s Community Data Platform."
-  },
-  {
-    "objectID": "posts/2025-06-10-wake/index.html#develop-useful-and-accessible-deliverables",
-    "href": "posts/2025-06-10-wake/index.html#develop-useful-and-accessible-deliverables",
-    "title": "An Attempt at Streamlining Secondary Data Analysis",
-    "section": "Develop Useful and Accessible Deliverables",
-    "text": "Develop Useful and Accessible Deliverables\nHistorically, secondary data tables are buried in dozens of pages in the final CHNA report. This is an issue for a few reasons:\n\nIntegrating 80+ tables into a stylized Word document or PDF requires tedious programming alongside inevitable manual tweaks.\nDeveloping 80+ tables that comply with Web Content Accessibility Guidelines 2.2 Level AA standards in Word and PDF formats is extremely challenging.\nThis format is largely useless for those who want to access the data!\n\nWith these historical limitations in mind, we worked alongside our partners to develop an HTML report with the data tables that meets WCAG 2.0 (Level AA) guidelines* and a downloadable dataset and data dictionary with the secondary data shown in the report.\nUltimately, this means community members can visit the Live Well Wake website to investigate the tables (instead of scrolling to the appendix of the report document) and use the dataset to conduct their own exploratory analyses or create their own visualizations.\n*Note: While the report meets WCAG 2.0 guidelines, the webpage it’s hosted on does not."
-  },
-  {
-    "objectID": "posts/2025-06-10-wake/index.html#stick-to-a-single-approach",
-    "href": "posts/2025-06-10-wake/index.html#stick-to-a-single-approach",
-    "title": "An Attempt at Streamlining Secondary Data Analysis",
-    "section": "Stick to a Single Approach",
-    "text": "Stick to a Single Approach\nWhile leveraging data repositories was helpful in streamlining the analysis of roughly 50% of our indicators, we still had to source data for the remaining half.\nMoving forward, I’d lean towards recommending a single approach to our partners (i.e., everything from NC data tools) to truly streamline these efforts, acknowledging that there may be a handful of indicators unique to local interests that we track down outside of the data tools. This would free up our time, allowing us to focus on meaningfully interpreting, visualizing, and presenting the data."
-  },
-  {
-    "objectID": "posts/2025-06-10-wake/index.html#enhance-data-accessibility",
-    "href": "posts/2025-06-10-wake/index.html#enhance-data-accessibility",
-    "title": "An Attempt at Streamlining Secondary Data Analysis",
-    "section": "Enhance Data Accessibility",
-    "text": "Enhance Data Accessibility\nThe dataset and webpage with the tables is a step up from being buried in a 200-page document. However, there’s work to be done to make the data more accessible. For example, I’d love think through how we can incorporate more interactive components for users. While several exciting and shiny ideas come to mind, I’m interested in asking community members, steering committee members, and our partners what’s on their wishlist."
-  },
-  {
-    "objectID": "posts/2025-06-10-wake-overview/index.html",
-    "href": "posts/2025-06-10-wake-overview/index.html",
-    "title": "An Attempt at Streamlining Secondary Data Analysis",
-    "section": "",
-    "text": "Working with secondary data in public health can be challenging. It feels like the public health data harmonization olympics, where the events include pulling, transforming, merging, analyzing, and communicating head-spinning amounts of data that span almost a dozen topics.\nIt’s no surprise I learn something every time I’m asked to support this process, whether it’s a new-to-me data repository I can access, an R package that can eliminate 50 lines of code, or even a philosophical approach that pushes me to think more critically about the big picture.\nIn this blog, I discuss how our team at NCIPH attempted to streamline the secondary data analyses for Wake County’s 2025 Community Health Needs Assessment (CHNA). I’ll also reflect on the lessons I learned this time around.\nStay tuned for a more technical follow-up post with reproducible R code that walks through our process for developing the final tables!"
-  },
-  {
-    "objectID": "posts/2025-06-10-wake-overview/index.html#indicator-list",
-    "href": "posts/2025-06-10-wake-overview/index.html#indicator-list",
-    "title": "An Attempt at Streamlining Secondary Data Analysis",
-    "section": "Develop Prioritized Indicator List",
-    "text": "Develop Prioritized Indicator List\nCHNA’s cover a wide range of topics, from Demographics, Access to Care, Community Cohesion, Reproductive & Child Health, and more. This makes it easy to accrue a very long list of indicators, and an excess of data makes it more challenging to identify key insights about the assets and needs of the community.\nSpending extra time in this phase of the project is well worth it. A more focused dataset tends to include higher quality data and does a better job at generating actionable insights and digestible data stories. For this project, we worked alongside the steering committee’s Secondary Data Analysis Workgroup to collaboratively identify the most important indicators to collect for each topic."
-  },
-  {
-    "objectID": "posts/2025-06-10-wake-overview/index.html#leverage-data-repositories",
-    "href": "posts/2025-06-10-wake-overview/index.html#leverage-data-repositories",
-    "title": "An Attempt at Streamlining Secondary Data Analysis",
-    "section": "Leverage Data Repositories",
-    "text": "Leverage Data Repositories\nIt takes a lot of effort to harmonize and report secondary data. By the time we finally have a harmonzied dataset, it can feel like there isn’t enough remaining time to thoughtfully investigate and communicate trends from our thoroughly curated dataset.\nFor the 2025 Wake CHNA, we worked alongside our partners to simplify our pulling and harmonization efforts: instead of tracking down 80+ indicators from their respective sources, we suggested streamlining secondary data analyses by sourcing most of our indicators from the NC Data Portal and Cape Fear Collective’s Community Data Platform."
-  },
-  {
-    "objectID": "posts/2025-06-10-wake-overview/index.html#develop-useful-and-accessible-deliverables",
-    "href": "posts/2025-06-10-wake-overview/index.html#develop-useful-and-accessible-deliverables",
-    "title": "An Attempt at Streamlining Secondary Data Analysis",
-    "section": "Develop Useful and Accessible Deliverables",
-    "text": "Develop Useful and Accessible Deliverables\nHistorically, secondary data tables are buried in dozens of pages in the final CHNA report. This is an issue for a few reasons:\n\nIntegrating 80+ tables into a stylized Word document or PDF requires tedious programming alongside inevitable manual tweaks.\nDeveloping 80+ tables that comply with Web Content Accessibility Guidelines 2.2 Level AA standards in Word and PDF formats is extremely challenging.\nThis format is largely useless for those who want to access the data!\n\nWith these historical limitations in mind, we worked alongside our partners to develop an HTML report with the data tables that meets WCAG 2.0 (Level AA) guidelines* and a downloadable dataset and data dictionary with the secondary data shown in the report.\nUltimately, this means community members can visit the Live Well Wake website to investigate the tables (instead of scrolling to the appendix of the report document) and use the dataset to conduct their own exploratory analyses or create their own visualizations.\n*Note: While the report meets WCAG 2.0 guidelines, the webpage it’s hosted on does not."
-  },
-  {
-    "objectID": "posts/2025-06-10-wake-overview/index.html#stick-to-a-single-approach",
-    "href": "posts/2025-06-10-wake-overview/index.html#stick-to-a-single-approach",
-    "title": "An Attempt at Streamlining Secondary Data Analysis",
-    "section": "Stick to a Single Approach",
-    "text": "Stick to a Single Approach\nWhile leveraging data repositories was helpful in streamlining the analysis of roughly 50% of our indicators, we still had to source data for the remaining half.\nMoving forward, I’d lean towards recommending a single approach to our partners (i.e., everything from NC data tools) to truly streamline these efforts, acknowledging that there may be a handful of indicators unique to local interests that we track down outside of the data tools. This would free up our time, allowing us to focus on meaningfully interpreting, visualizing, and presenting the data."
-  },
-  {
-    "objectID": "posts/2025-06-10-wake-overview/index.html#enhance-data-accessibility",
-    "href": "posts/2025-06-10-wake-overview/index.html#enhance-data-accessibility",
-    "title": "An Attempt at Streamlining Secondary Data Analysis",
-    "section": "Enhance Data Accessibility",
-    "text": "Enhance Data Accessibility\nThe dataset and webpage with the tables is a step up from being buried in a 200-page document. However, there’s work to be done to make the data more accessible. For example, I’d love to think through how we can incorporate more interactive components for users. While several exciting and shiny ideas come to mind, I’m interested in asking community members, steering committee members, and our partners what’s on their wishlist."
-  },
-  {
-    "objectID": "gallery.html",
-    "href": "gallery.html",
-    "title": "Gallery",
-    "section": "",
-    "text": "Pulled, harmonized, analyzed, and visualized 85+ secondary data indicators with R and Quarto for Wake County’s 2025 Community Health Needs Assessment (CHNA).\nhttps://livewellwake.org/priorities/"
-  },
-  {
-    "objectID": "gallery.html#my-portfolio",
-    "href": "gallery.html#my-portfolio",
-    "title": "Gallery",
-    "section": "",
-    "text": "https://example.com/project1 images/project1-thumbnail.png\n\nProject Title 1Short description\n\n\n\n\nhttps://example.com/project2"
-  },
-  {
-    "objectID": "gallery.html#wake-county-chna-2025-secondary-data-analysis",
-    "href": "gallery.html#wake-county-chna-2025-secondary-data-analysis",
-    "title": "Gallery",
-    "section": "",
-    "text": "Pulled, harmonized, analyzed, and visualized 85+ secondary data indicators with R and Quarto for Wake County’s 2025 Community Health Needs Assessment (CHNA).\nhttps://livewellwake.org/priorities/"
-  },
-  {
-    "objectID": "gallery.html#nc-local-health-department-accreditation-annual-survey-analysis",
-    "href": "gallery.html#nc-local-health-department-accreditation-annual-survey-analysis",
-    "title": "Gallery",
-    "section": "NC Local Health Department Accreditation: Annual Survey Analysis",
-    "text": "NC Local Health Department Accreditation: Annual Survey Analysis\nDeveloped reproducible analysis pipeline for NCLHDA’s Annual Survey. Migrated data cleaning, analysis, and visualization from Stata + Tableau to R + Quarto.\nhttps://nciph.sph.unc.edu/accred-files/Annual%20Survey%20Report/Accred-2025-Survey-Report.html\nhttps://nciph.sph.unc.edu/accred-files/Annual%20Survey%20Report/Accred-2024-Survey-Report_V2.html"
-  },
-  {
-    "objectID": "portfolio.html",
-    "href": "portfolio.html",
-    "title": "Portfolio",
-    "section": "",
-    "text": "Click the tiles below to learn more about key projects I’ve contributed to over the past few years.\n\n\n\n\n\n\n\n\n\n\n\n\nCommunity Data and Learning Cohort\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHBCU Health Equity Data Consortium\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLinking Violent Death Decedents to Prior Emergency Department Visits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNC Local Health Department Accreditation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProtective Behavioral Strategies in Young Adult Alcohol Use\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublic Health Infrastructure Grant (PHIG)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWake County Community Health Assessment\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "portfolio/hbcu-hedc/index.html",
-    "href": "portfolio/hbcu-hedc/index.html",
-    "title": "HBCU Health Equity Data Consortium",
-    "section": "",
-    "text": "Formed and facilitated a Data Analysis Workgroup with faculty and students from 10 universities across NC. Provided technical assistance and capacity building support for the COVID-19 Impact Survey, including survey administration, data monitoring, wrangling, analysis, visualization, and dissemination.\n\n\n\nIn-person meeting at NC A&T on January 25, 2024."
-  },
-  {
-    "objectID": "portfolio/hbcu-hedc/index.html#hbcu-health-equity-data-consortium",
-    "href": "portfolio/hbcu-hedc/index.html#hbcu-health-equity-data-consortium",
-    "title": "HBCU Health Equity Data Consortium",
-    "section": "",
-    "text": "2023-2025\nFormed and facilitated a Data Analysis Workgroup with faculty and students from 10 universities across NC. Provided technical assistance and capacity building support for the COVID-19 Impact Survey, including survey administration, data monitoring, wrangling, analysis, visualization, and dissemination. Developed reproducible R code, an R Shiny dashboard, R Markdown documents, and Quarto documents.\nhttps://loisaj.com/posts/2025-01-15-hbcu-hedc/\nhttps://sph.unc.edu/hbcu-health-equity-data-consortium/ \nhttps://youtu.be/77gPAh9Jj18?feature=shared"
-  },
-  {
-    "objectID": "portfolio/data-and-metrics/index.html",
-    "href": "portfolio/data-and-metrics/index.html",
-    "title": "Community Data and Learning Cohort",
-    "section": "",
-    "text": "Provided direct technical assistance to four community-based organizations across NC, building partner capacity in data collection, data analysis, data visualization, and data dissemination. Developed and delivered interactive workshops on how to assess and address data bias and how to tailor data to key audiences.\n\n\n\nVisioning activity during cohort kick-off event in October 2024."
-  },
-  {
-    "objectID": "portfolio/data-and-metrics/index.html#community-data-and-learning-cohort",
-    "href": "portfolio/data-and-metrics/index.html#community-data-and-learning-cohort",
-    "title": "Community Data and Learning Cohort",
-    "section": "",
-    "text": "2023-2025\n[add description]\nhttps://sph.unc.edu/nciph/community-data-and-learning-cohort/"
-  },
-  {
-    "objectID": "portfolio/hbcu-hedc/index.html#role-contributions",
-    "href": "portfolio/hbcu-hedc/index.html#role-contributions",
-    "title": "HBCU Health Equity Data Consortium",
-    "section": "",
-    "text": "Formed and facilitated a Data Analysis Workgroup with faculty and students from 10 universities across NC. Provided technical assistance and capacity building support for the COVID-19 Impact Survey, including survey administration, data monitoring, wrangling, analysis, visualization, and dissemination.\n\n\n\nIn-person meeting at NC A&T on January 25, 2024."
-  },
-  {
-    "objectID": "portfolio/hbcu-hedc/index.html#tools-used",
-    "href": "portfolio/hbcu-hedc/index.html#tools-used",
-    "title": "HBCU Health Equity Data Consortium",
-    "section": "Tools Used",
-    "text": "Tools Used\n\nR\nR Shiny\nR Markdown\nQuarto"
-  },
-  {
-    "objectID": "portfolio/hbcu-hedc/index.html#highlights",
-    "href": "portfolio/hbcu-hedc/index.html#highlights",
-    "title": "HBCU Health Equity Data Consortium",
-    "section": "Highlights",
-    "text": "Highlights\n\n📰 NCIPH Provides Technical Assistance to HBCU Data Consortium\n🎤 Using R to Co-Create an Inclusive Data Analysis Approach with the HBCU Health Equity Data Consortium\n✍️ Co-Creating Inclusive Data Analysis Approaches"
   },
   {
     "objectID": "portfolio/wake-chna/index.html",
@@ -313,48 +61,6 @@
     "title": "Wake County Community Health Assessment",
     "section": "Highlights",
     "text": "Highlights\n\n📒 Wake CHNA 2025 Secondary Data Tables\n✍️ An Attempt at Streamlining Secondary Data Analysis\n📒 Wake County Community Health Needs Assessment 2025"
-  },
-  {
-    "objectID": "portfolio/nclhda/index.html",
-    "href": "portfolio/nclhda/index.html",
-    "title": "NC Local Health Department Accreditation",
-    "section": "",
-    "text": "Automated reporting for 15+ site visit indicators by transforming and joining 9 unique datasets. Maintains detailed documentation of process and methods, including diagrams, indicator catalogs, data dictionaries, and reproducible R code.\n\n\n\nDeveloped reproducible analysis pipeline for NCLHDA’s Annual Survey, migrating data cleaning, analysis, and visualization from Stata and Tableau to R and Quarto.\n\nSnippet from the 2025 NCLHDA Annual Survey Report"
-  },
-  {
-    "objectID": "portfolio/nclhda/index.html#role-contributions",
-    "href": "portfolio/nclhda/index.html#role-contributions",
-    "title": "NC Local Health Department Accreditation",
-    "section": "",
-    "text": "Automated reporting for 15+ site visit indicators by transforming and joining 9 unique datasets. Maintains detailed documentation of process and methods, including diagrams, indicator catalogs, data dictionaries, and reproducible R code.\n\n\n\nDeveloped reproducible analysis pipeline for NCLHDA’s Annual Survey, migrating data cleaning, analysis, and visualization from Stata and Tableau to R and Quarto.\n\nSnippet from the 2025 NCLHDA Annual Survey Report"
-  },
-  {
-    "objectID": "portfolio/nclhda/index.html#tools-used",
-    "href": "portfolio/nclhda/index.html#tools-used",
-    "title": "NC Local Health Department Accreditation",
-    "section": "Tools Used",
-    "text": "Tools Used\n\nR\nQuarto\nStata\nTableau"
-  },
-  {
-    "objectID": "portfolio/nclhda/index.html#highlights",
-    "href": "portfolio/nclhda/index.html#highlights",
-    "title": "NC Local Health Department Accreditation",
-    "section": "Highlights",
-    "text": "Highlights\n\n📒 NCLHDA Annual Survey Results: 2025\n📒 NCLHDA Annual Survey Results: 2024"
-  },
-  {
-    "objectID": "portfolio/wake-chna/index.html#wake-county-community-health-assessment",
-    "href": "portfolio/wake-chna/index.html#wake-county-community-health-assessment",
-    "title": "Wake County Community Health Assessment",
-    "section": "",
-    "text": "2025\nLed the steering committee’s Secondary Data Workgroup and an internal team of three to identify, collect, harmonize, analyze, and visualize 85+ secondary data indicators with R and Quarto.\nhttps://livewellwake.org/priorities/\nhttps://loisaj.com/posts/2025-06-10-wake-overview/"
-  },
-  {
-    "objectID": "portfolio/nclhda/index.html#nc-local-health-department-accreditation",
-    "href": "portfolio/nclhda/index.html#nc-local-health-department-accreditation",
-    "title": "NC Local Health Department Accreditation",
-    "section": "",
-    "text": "2024-2025\nDeveloped reproducible analysis pipeline for NCLHDA’s Annual Survey, migrating data cleaning, analysis, and visualization from Stata and Tableau to R and Quarto.\n[Add site visit transformation notes?]\nhttps://nciph.sph.unc.edu/accred-files/Annual%20Survey%20Report/Accred-2025-Survey-Report.html\nhttps://nciph.sph.unc.edu/accred-files/Annual%20Survey%20Report/Accred-2024-Survey-Report_V2.html"
   },
   {
     "objectID": "portfolio/pbs/index.html",
@@ -413,6 +119,13 @@
     "text": "Highlights\n\n📖 Feasibility of linking violent death decedents to prior-month emergency department visits in North Carolina, 2019–2020\n📖 Emergency Department Visits Prior to Firearm Death: The NC LEADS Project\n✍️ Investigating Emergency Department Utilization in the Year Prior to Firearm Death in NC\n📒 Linking North Carolina Violent Death Reporting System and NC DETECT Emergency Department Visit Data for Firearm Deaths"
   },
   {
+    "objectID": "portfolio/data-and-metrics/index.html",
+    "href": "portfolio/data-and-metrics/index.html",
+    "title": "Community Data and Learning Cohort",
+    "section": "",
+    "text": "Provided direct technical assistance to four community-based organizations across NC, building partner capacity in data collection, data analysis, data visualization, and data dissemination. Developed and delivered interactive workshops on how to assess and address data bias and how to tailor data to key audiences.\n\n\n\nVisioning activity during cohort kick-off event in October 2024."
+  },
+  {
     "objectID": "portfolio/data-and-metrics/index.html#role-contributions",
     "href": "portfolio/data-and-metrics/index.html#role-contributions",
     "title": "Community Data and Learning Cohort",
@@ -432,6 +145,83 @@
     "title": "Community Data and Learning Cohort",
     "section": "Highlights",
     "text": "Highlights\n\n📰 Community Data and Learning Cohort"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Lois Adler-Johnson",
+    "section": "",
+    "text": "Welcome! I’m Lois.\nI describe myself as a public health data scientist with a unique blend of engineering, statistics, and epidemiology expertise. I’m a skilled creative problem solver and I love to tackle complex issues collaboratively. I’m a promoter of open-source software in public health, and I’m particularly passionate about building quantitative data capacity and confidence among people without technical backgrounds.\nI currently lead the Data Strategy & Analytics team at the North Carolina Institute for Public Health. We provide advanced quantitative data skills to health departments, community-based organizations, and healthcare systems to improve the health of communities across North Carolina.\nOutside of my data endeavors, I’m a part-time baker at a local grain farm and I run a fiction book club (join us!). On any given day, you can find me walking and snuggling with my dogs, trying new recipes, and working on a range of creative projects."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Lois Adler-Johnson",
+    "section": "Education",
+    "text": "Education\nUniversity of North Carolina at Chapel Hill | MPH in Applied Epidemiology\nGeorgia Institute of Technology | BS in Industrial & Systems Engineering | Concentration in Quality & Statistics"
+  },
+  {
+    "objectID": "makes.html",
+    "href": "makes.html",
+    "title": "Makes",
+    "section": "",
+    "text": "I love to learn different crafts and create special things for loved ones. Here are snippets of different knitting, stitching, sewing, printmaking, etc. projects I’ve worked on over the past few years.\n\n\n\n\n\n\n\n\n\nScreenprinting process (1)\n\n\n\n\n\n\n\nScreenprinting process (2)\n\n\n\n\n\n\n\nFinal 3-layer screenprint\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKnit dog sweater\n\n\n\n\n\n\n\nBobby modeling the sweater\n\n\n\n\n\n\n\nKnit baby blanket\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLil Bucky Bag\n\n\n\n\n\n\n\nHand-sewn mini quilt\n\n\n\n\n\n\n\nDog bandana\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJuniper tree cross-stitch\n\n\n\n\n\n\n\nCraft case\n\n\n\n\n\n\n\nFree-hand mushroom embroidery\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChristmas tree skirt #1\n\n\n\n\n\n\n\nChristmas tree skirt #2\n\n\n\n\n\n\n\nTrivets\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRisograph valentine (front)\n\n\n\n\n\n\n\nRisograph valentine (back)\n\n\n\n\n\n\n\nSwallows embroidery\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStained glass\n\n\n\n\n\n\n\nWedding arbor\n\n\n\n\n\n\n\nSpaceship + space goose\n\n\n\n\n\n\n\n\n\nShot of my burned screen with my final layer, black ink, and squeegee before pulling.\n\n\nChecking out my print after pulling the final layer.\n\n\nFinal 3-layer product from the 4-week Intro to Screenprint class I took at Super G Print Lab in Durham.\n\n\nWool and the Gang’s Dog’s Life Coat—it’s the first knitting pattern I’ve ever finished!\n\n\nBobby all cozied up in the sweater before a walk on a chilly day.\n\n\nWool and the Gang’s Happy Blanket for my friend’s sweet baby Miles.\n\n\nLeila Make’s Lil Bucky Bag, perfect for knitting projects!\n\n\nI learned how to improv mini quilts with Ali at the lovely Triple Spring Studios.\n\n\nI sewed this bandana for my pals’ dog Gertie out of my favorite cowboy fabric.\n\n\nI cross-stitched this juniper tree for my niece Juniper. The pattern from Axebe is no longer available.\n\n\nCool Stitches craft case—I use it to keep my knitting tools organized.\n\n\nMy first free-handed embroidery project, inspired by all of the mushrooms in my yard.\n\n\nChristmas tree skirt pattern from Treasurie.\n\n\nAnother Christmas tree skirt from Treasurie with my favorite cowboy fabric.\n\n\nI made these fun little trivets with thrifted fabric scraps for a LOTR-themed dinner party.\n\n\nI took an awesome valentine-themed risograph class at Super G Print Lab. I was super happy with how my cards turned out! This is the front side of the card.\n\n\nI took an awesome valentine-themed risograph class at Super G Print Lab. I was super happy with how my cards turned out! This is the back side of the card.\n\n\nLittle Jo and Co’s swallows embroidery pattern for my niece Emmaline.\n\n\nI took my dad to a stained glass class at the Clifton Cultural Arts Center. It was way harder than I thought it’d be and my piece ended up looking pretty goofy, but we had a blast together!\n\n\nLloyd and I had a disco-themed wedding and we made this arbor with our friend Willa using some of my grandparents’ old records.\n\n\nMy friend Kate had an alien-themed birthday party around the time Virgin Galactic launched, so I felt inspired to build a spaceship prop."
+  },
+  {
+    "objectID": "portfolio/hbcu-hedc/index.html",
+    "href": "portfolio/hbcu-hedc/index.html",
+    "title": "HBCU Health Equity Data Consortium",
+    "section": "",
+    "text": "Formed and facilitated a Data Analysis Workgroup with faculty and students from 10 universities across NC. Provided technical assistance and capacity building support for the COVID-19 Impact Survey, including survey administration, data monitoring, wrangling, analysis, visualization, and dissemination.\n\n\n\nIn-person meeting at NC A&T on January 25, 2024."
+  },
+  {
+    "objectID": "portfolio/hbcu-hedc/index.html#role-contributions",
+    "href": "portfolio/hbcu-hedc/index.html#role-contributions",
+    "title": "HBCU Health Equity Data Consortium",
+    "section": "",
+    "text": "Formed and facilitated a Data Analysis Workgroup with faculty and students from 10 universities across NC. Provided technical assistance and capacity building support for the COVID-19 Impact Survey, including survey administration, data monitoring, wrangling, analysis, visualization, and dissemination.\n\n\n\nIn-person meeting at NC A&T on January 25, 2024."
+  },
+  {
+    "objectID": "portfolio/hbcu-hedc/index.html#tools-used",
+    "href": "portfolio/hbcu-hedc/index.html#tools-used",
+    "title": "HBCU Health Equity Data Consortium",
+    "section": "Tools Used",
+    "text": "Tools Used\n\nR\nR Shiny\nR Markdown\nQuarto"
+  },
+  {
+    "objectID": "portfolio/hbcu-hedc/index.html#highlights",
+    "href": "portfolio/hbcu-hedc/index.html#highlights",
+    "title": "HBCU Health Equity Data Consortium",
+    "section": "Highlights",
+    "text": "Highlights\n\n📰 NCIPH Provides Technical Assistance to HBCU Data Consortium\n🎤 Using R to Co-Create an Inclusive Data Analysis Approach with the HBCU Health Equity Data Consortium\n✍️ Co-Creating Inclusive Data Analysis Approaches"
+  },
+  {
+    "objectID": "portfolio/nclhda/index.html",
+    "href": "portfolio/nclhda/index.html",
+    "title": "NC Local Health Department Accreditation",
+    "section": "",
+    "text": "Automated reporting for 15+ site visit indicators by transforming and joining 9 unique datasets. Maintains detailed documentation of process and methods, including diagrams, indicator catalogs, data dictionaries, and reproducible R code.\n\n\n\nDeveloped reproducible analysis pipeline for NCLHDA’s Annual Survey, migrating data cleaning, analysis, and visualization from Stata and Tableau to R and Quarto.\n\nSnippet from the 2025 NCLHDA Annual Survey Report"
+  },
+  {
+    "objectID": "portfolio/nclhda/index.html#role-contributions",
+    "href": "portfolio/nclhda/index.html#role-contributions",
+    "title": "NC Local Health Department Accreditation",
+    "section": "",
+    "text": "Automated reporting for 15+ site visit indicators by transforming and joining 9 unique datasets. Maintains detailed documentation of process and methods, including diagrams, indicator catalogs, data dictionaries, and reproducible R code.\n\n\n\nDeveloped reproducible analysis pipeline for NCLHDA’s Annual Survey, migrating data cleaning, analysis, and visualization from Stata and Tableau to R and Quarto.\n\nSnippet from the 2025 NCLHDA Annual Survey Report"
+  },
+  {
+    "objectID": "portfolio/nclhda/index.html#tools-used",
+    "href": "portfolio/nclhda/index.html#tools-used",
+    "title": "NC Local Health Department Accreditation",
+    "section": "Tools Used",
+    "text": "Tools Used\n\nR\nQuarto\nStata\nTableau"
+  },
+  {
+    "objectID": "portfolio/nclhda/index.html#highlights",
+    "href": "portfolio/nclhda/index.html#highlights",
+    "title": "NC Local Health Department Accreditation",
+    "section": "Highlights",
+    "text": "Highlights\n\n📒 NCLHDA Annual Survey Results: 2025\n📒 NCLHDA Annual Survey Results: 2024"
   },
   {
     "objectID": "portfolio/phig/index.html",
@@ -460,5 +250,96 @@
     "title": "Public Health Infrastructure Grant (PHIG)",
     "section": "Highlights",
     "text": "Highlights\n\n📒 North Carolina Foundational Capabilities Executive Summary (2025)\n💻 Strengthening Foundational Capabilities Initiatives"
+  },
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Click the tiles below to learn more about key projects I’ve contributed to over the past few years.\n\n\n\n\n\n\n\n\n\n\n\n\nCommunity Data and Learning Cohort\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHBCU Health Equity Data Consortium\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLinking Violent Death Decedents to Prior Emergency Department Visits\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNC Local Health Department Accreditation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProtective Behavioral Strategies in Young Adult Alcohol Use\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPublic Health Infrastructure Grant (PHIG)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWake County Community Health Assessment\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2025-01-15-hbcu-hedc/index.html",
+    "href": "posts/2025-01-15-hbcu-hedc/index.html",
+    "title": "Co-Creating Inclusive Data Analysis Approaches",
+    "section": "",
+    "text": "Project Overview\nThe Historically Black Colleges and Universities (HBCU) Health Equity Data Consortium (HEDC) is a strategic collaboration of 10 HBCU and Minority Serving Institutions (MSI) across North Carolina working to address health disparities among underserved communities in our state.\nFrom February 2023 to February 2024, the HBCU HEDC deployed the COVID-19 Impact Survey to address critical data gaps on the pandemic’s impact on households across NC. Our team at the North Carolina Institute for Public Health (NCIPH) provided technical assistance for survey methods, analysis, and dissemination.\n\n\nData Analysis Workgroup\nTasked with providing capacity building support for wrangling, analyzing, and visualizing survey results, I helped form a Data Analysis Workgroup composed of faculty and students from all 10 universities within the HBCU HEDC.\nI’d be remiss not to mention some of the members of the workgroup: Dr. Scott Bradshaw (ECSU), Dr. Sabina Otienoburu (JCSU), Dr. Cynthia Williams Brown (WSSU), Dr. Martie Thompson (App State), Dr. Sherry Leviner (FSU), Melvin Jackson (Shaw/UNC-CH), Dr. Anderton-Georgie (Shaw), Dr. Dorothy C. Browne (Shaw), Dr. Nicole Diggs (NCCU), Dr. Irene Doherty (NCCU), Dr. Joe West (UNC Pembroke), Dr. Yiqing Yang (WCU), Dr. Ashley Sanderlin (NCAT), Dr. Miriam Wagner (NCAT), DeNita Murdock-Nash (NC SCHS), Dr. John Wallace (UNC-CH), and Jaquayla Hodges (UNC-CH). Shout-out to all of these amazing folks!\n\n\n\nIn-person meeting at NC A&T on January 25, 2024.\n\n\n\n\nLeveraging Open-Source Tools\nWe wanted to choose a primary programming language for the analysis. Understandably, members of the workgroup had a variety of preferred, mostly licensed programming languages. I selected R as the primary language because it’s free, open-source, conducive to literate programming and research reproducibility, and there’s an unparalleled volume of self-learning resources.\nOur team at NCIPH led R workshops, compiled relevant R resources, and developed shared code for transforming raw results, descriptive statistics, and univariate regression. The workgroup used R Markdown, Quarto, and Shiny to report results, ultimately using the output as a basis for coding and analysis decisions, exploratory analyses, and dissemination of findings to NC communities.\n\n\n\nImpact of workshops, shared code, R Markdown, Quarto, and Shiny.\n\n\n\n\nuseR! Talk\nIn July 2024, I had the opportunity to give a talk about this work at the useR! conference in Salzburg, Austria. In addition to the content mentioned above, I discussed how convening a Data Analysis Workgroup and using free, open-source R packages and tools can serve as an engaging framework to bolster data science education and autonomy.\nI encouraged fellow data scientists to:\n\nBreak out of the silo we too often find ourselves in by forming data workgroups tailored to project context\nDemystify data science by meaningfully engaging folks throughout the data lifecycle\nPromote data democratization by using free and open source tools (okay R!)"
+  },
+  {
+    "objectID": "posts/2025-06-10-wake-overview/index.html",
+    "href": "posts/2025-06-10-wake-overview/index.html",
+    "title": "An Attempt at Streamlining Secondary Data Analysis",
+    "section": "",
+    "text": "Working with secondary data in public health can be challenging. It feels like the public health data harmonization olympics, where the events include pulling, transforming, merging, analyzing, and communicating head-spinning amounts of data that span almost a dozen topics.\nIt’s no surprise I learn something every time I’m asked to support this process, whether it’s a new-to-me data repository I can access, an R package that can eliminate 50 lines of code, or even a philosophical approach that pushes me to think more critically about the big picture.\nIn this blog, I discuss how our team at NCIPH attempted to streamline the secondary data analyses for Wake County’s 2025 Community Health Needs Assessment (CHNA). I’ll also reflect on the lessons I learned this time around.\nStay tuned for a more technical follow-up post with reproducible R code that walks through our process for developing the final tables!"
+  },
+  {
+    "objectID": "posts/2025-06-10-wake-overview/index.html#indicator-list",
+    "href": "posts/2025-06-10-wake-overview/index.html#indicator-list",
+    "title": "An Attempt at Streamlining Secondary Data Analysis",
+    "section": "Develop Prioritized Indicator List",
+    "text": "Develop Prioritized Indicator List\nCHNA’s cover a wide range of topics, from Demographics, Access to Care, Community Cohesion, Reproductive & Child Health, and more. This makes it easy to accrue a very long list of indicators, and an excess of data makes it more challenging to identify key insights about the assets and needs of the community.\nSpending extra time in this phase of the project is well worth it. A more focused dataset tends to include higher quality data and does a better job at generating actionable insights and digestible data stories. For this project, we worked alongside the steering committee’s Secondary Data Analysis Workgroup to collaboratively identify the most important indicators to collect for each topic."
+  },
+  {
+    "objectID": "posts/2025-06-10-wake-overview/index.html#leverage-data-repositories",
+    "href": "posts/2025-06-10-wake-overview/index.html#leverage-data-repositories",
+    "title": "An Attempt at Streamlining Secondary Data Analysis",
+    "section": "Leverage Data Repositories",
+    "text": "Leverage Data Repositories\nIt takes a lot of effort to harmonize and report secondary data. By the time we finally have a harmonzied dataset, it can feel like there isn’t enough remaining time to thoughtfully investigate and communicate trends from our thoroughly curated dataset.\nFor the 2025 Wake CHNA, we worked alongside our partners to simplify our pulling and harmonization efforts: instead of tracking down 80+ indicators from their respective sources, we suggested streamlining secondary data analyses by sourcing most of our indicators from the NC Data Portal and Cape Fear Collective’s Community Data Platform."
+  },
+  {
+    "objectID": "posts/2025-06-10-wake-overview/index.html#develop-useful-and-accessible-deliverables",
+    "href": "posts/2025-06-10-wake-overview/index.html#develop-useful-and-accessible-deliverables",
+    "title": "An Attempt at Streamlining Secondary Data Analysis",
+    "section": "Develop Useful and Accessible Deliverables",
+    "text": "Develop Useful and Accessible Deliverables\nHistorically, secondary data tables are buried in dozens of pages in the final CHNA report. This is an issue for a few reasons:\n\nIntegrating 80+ tables into a stylized Word document or PDF requires tedious programming alongside inevitable manual tweaks.\nDeveloping 80+ tables that comply with Web Content Accessibility Guidelines 2.2 Level AA standards in Word and PDF formats is extremely challenging.\nThis format is largely useless for those who want to access the data!\n\nWith these historical limitations in mind, we worked alongside our partners to develop an HTML report with the data tables that meets WCAG 2.0 (Level AA) guidelines* and a downloadable dataset and data dictionary with the secondary data shown in the report.\nUltimately, this means community members can visit the Live Well Wake website to investigate the tables (instead of scrolling to the appendix of the report document) and use the dataset to conduct their own exploratory analyses or create their own visualizations.\n*Note: While the report meets WCAG 2.0 guidelines, the webpage it’s hosted on does not."
+  },
+  {
+    "objectID": "posts/2025-06-10-wake-overview/index.html#stick-to-a-single-approach",
+    "href": "posts/2025-06-10-wake-overview/index.html#stick-to-a-single-approach",
+    "title": "An Attempt at Streamlining Secondary Data Analysis",
+    "section": "Stick to a Single Approach",
+    "text": "Stick to a Single Approach\nWhile leveraging data repositories was helpful in streamlining the analysis of roughly 50% of our indicators, we still had to source data for the remaining half.\nMoving forward, I’d lean towards recommending a single approach to our partners (i.e., everything from NC data tools) to truly streamline these efforts, acknowledging that there may be a handful of indicators unique to local interests that we track down outside of the data tools. This would free up our time, allowing us to focus on meaningfully interpreting, visualizing, and presenting the data."
+  },
+  {
+    "objectID": "posts/2025-06-10-wake-overview/index.html#enhance-data-accessibility",
+    "href": "posts/2025-06-10-wake-overview/index.html#enhance-data-accessibility",
+    "title": "An Attempt at Streamlining Secondary Data Analysis",
+    "section": "Enhance Data Accessibility",
+    "text": "Enhance Data Accessibility\nThe dataset and webpage with the tables is a step up from being buried in a 200-page document. However, there’s work to be done to make the data more accessible. For example, I’d love to think through how we can incorporate more interactive components for users. While several exciting and shiny ideas come to mind, I’m interested in asking community members, steering committee members, and our partners what’s on their wishlist."
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Here are some of my most referenced and shared resources. These lists are always evolving, and I welcome recommended additions!"
+  },
+  {
+    "objectID": "resources.html#data-democratization-data-equity",
+    "href": "resources.html#data-democratization-data-equity",
+    "title": "Resources",
+    "section": "Data Democratization & Data Equity",
+    "text": "Data Democratization & Data Equity\n\nPrinciples for Using Public Health Data to Drive Equity\nA Toolkit for Centering Racial Equity Throughout Data Integration\nA Health Equity Framework\nCharting a Course for an Equity-Centered Data System\nData Commitment and Principles\nData Democratization: The Unsung Hero Of Health Equity\nHealth Data Governance Principles\nEquitable Evaluation Framework\nOn Racism: A New Standard for Publishing On Racial Health Inequities"
+  },
+  {
+    "objectID": "resources.html#data-visualization",
+    "href": "resources.html#data-visualization",
+    "title": "Resources",
+    "section": "Data Visualization",
+    "text": "Data Visualization\n\nDo No Harm Guide: Applying Equity Awareness in Data Visualization\nPowering Health Equity Action with Online Data Tools: 10 Design Principles\nColorBrewer\nAccessibility and Visualization\nChartability"
+  },
+  {
+    "objectID": "resources.html#r",
+    "href": "resources.html#r",
+    "title": "Resources",
+    "section": "R",
+    "text": "R\n\nEpidemiologist R Handbook\nAdvanced R\nBig Book of R\nR for Data Science (2nd Edition)\nCheatsheets"
+  },
+  {
+    "objectID": "resources.html#code-style",
+    "href": "resources.html#code-style",
+    "title": "Resources",
+    "section": "Code Style",
+    "text": "Code Style\n\nnaming things"
   }
 ]
