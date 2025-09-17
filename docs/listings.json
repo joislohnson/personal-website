@@ -2,9 +2,22 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/2025-06-04-wake/index.html",
       "/posts/2025-06-10-wake-overview/index.html",
       "/posts/2025-01-15-hbcu-hedc/index.html",
       "/posts/2024-12-24-svi-analysis/index.html"
+    ]
+  },
+  {
+    "listing": "/portfolio.html",
+    "items": [
+      "/portfolio/data-and-metrics/index.html",
+      "/portfolio/hbcu-hedc/index.html",
+      "/portfolio/linkage/index.html",
+      "/portfolio/nclhda/index.html",
+      "/portfolio/pbs/index.html",
+      "/portfolio/phig/index.html",
+      "/portfolio/wake-chna/index.html"
     ]
   }
 ]

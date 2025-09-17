@@ -1,0 +1,28 @@
+---
+title: "Protective Behavioral Strategies in Young Adult Alcohol Use"
+subtitle: "2022"
+description: " "
+format: html
+---
+
+## Role & Contributions
+
+Served as a quantitative research assistant for UNC Addressing the Social Contexts and Environments of Drinking (ASCEND) research group. Conducted an exploratory analysis of drinking motives and the use of harm reduction strategies. Transformed and analyzed cross-sectional survey and ecological momentary assessment (EMA) data. Drafted academic manuscripts on the topic of young adult engagement in alcohol consumption harm reduction strategies in various physical and social contexts.
+
+[![Article highlighting research done by our team.](images/gillings-article.png){fig-alt="Screenshot of article"}](https://sph.unc.edu/sph-news/researchers-explore-protective-strategies-in-young-adult-alcohol-use/)
+
+## Tools Used
+
+-   R
+
+-   R Markdown
+
+-   SAS
+
+## Highlights
+
+-   [📖 Likelihood of Young Adult Engagement in Protective Behavioral Strategies for Alcohol Use across Drinking Contexts: Implications for Adaptive Interventions](https://www.tandfonline.com/doi/abs/10.1080/10826084.2024.2310484){.uri}
+
+-   [📖 Alcohol protective behavioral strategies for young adults: a content analysis across drinking contexts and gender](https://www.tandfonline.com/doi/abs/10.1080/00952990.2023.2272035){.uri}
+
+-   [📰 Researchers explore protective strategies in young adult alcohol use](https://sph.unc.edu/sph-news/researchers-explore-protective-strategies-in-young-adult-alcohol-use/){.uri}

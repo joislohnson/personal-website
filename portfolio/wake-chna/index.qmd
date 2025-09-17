@@ -1,0 +1,28 @@
+---
+title: "Wake County Community Health Assessment"
+subtitle: "2024-2025"
+description: " "
+format: html
+---
+
+## Role & Contributions
+
+Led the steering committee's Secondary Data Workgroup and an internal team of three to identify, collect, harmonize, analyze, and visualize 85+ secondary data indicators for Wake County's 2025 Community Health Needs Assessment.
+
+![Summary sheet from the 2025 Wake County CHNA with primary and secondary data.](images/summary-sheet.png)
+
+## Tools Used
+
+-   R
+
+-   Quarto
+
+-   Canva
+
+## Highlights
+
+-   [📒 Wake CHNA 2025 Secondary Data Tables](https://livewellwake.org/priorities/){.uri}
+
+-   [✍️ An Attempt at Streamlining Secondary Data Analysis](https://loisaj.com/posts/2025-06-10-wake-overview/){.uri}
+
+-   [📒 Wake County Community Health Needs Assessment 2025](https://livewellwake.org/wp-content/uploads/2025/07/CHNA_2025Final.pdf)

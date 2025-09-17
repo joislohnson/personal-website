@@ -1,0 +1,28 @@
+---
+title: "Linking Violent Death Decedents to Prior Emergency Department Visits"
+subtitle: "2022-2023"
+description: " "
+format: html
+---
+
+## Role & Contributions
+
+Conducted a novel probabilistic data linkage of NC Violent Death Reporting System (NC-VDRS) and NC Disease Event Tracking and Epidemiologic Collection Tool (NC DETECT) to improve firearm and suicide event surveillance and identify prevention strategies. Supported dissemination efforts of the data linkage work through preparing technical reports, blogs, manuscripts, and presentations.
+
+[![Article in the NC Medical Journal issue focused on reducing firearm injury and death in NC. Photo by Mat Napo.](images/nc-med-article.png){fig-alt="Screenshot of journal article"}](https://ncmedicaljournal.com/article/81274-emergency-department-visits-prior-to-firearm-death-the-nc-leads-project)
+
+## Tools Used
+
+-   R
+
+-   R Markdown
+
+## Highlights
+
+-   [📖 Feasibility of linking violent death decedents to prior-month emergency department visits in North Carolina, 2019–2020](https://injuryprevention.bmj.com/content/29/4/355){.uri}
+
+-   [📖 Emergency Department Visits Prior to Firearm Death: The NC LEADS Project](https://ncmedicaljournal.com/article/81274-emergency-department-visits-prior-to-firearm-death-the-nc-leads-project){.uri}
+
+-   [✍️ Investigating Emergency Department Utilization in the Year Prior to Firearm Death in NC](https://ncdetect.org/2022/12/investigating-emergency-department-utilization-in-the-year-prior-to-firearm-death-in-nc/){.uri}
+
+-   [📒 Linking North Carolina Violent Death Reporting System and NC DETECT Emergency Department Visit Data for Firearm Deaths](https://ncdetect.org/wp-content/uploads/sites/13428/2022/09/LEADS_REPORT_NC_9.14.22_FINAL.pdf){.uri}

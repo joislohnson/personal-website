@@ -1,0 +1,38 @@
+---
+title: "Public Health Infrastructure Grant (PHIG)"
+subtitle: "2023-2025"
+description: " "
+format: html
+---
+
+## Role & Contributions
+
+### North Carolina Foundational Capabilities Assessment
+
+Leads the quantitative data wrangling, monitoring, analysis, and reporting for a 5-year repeated annual assessment of the public health workforce in NC. Head developer and maintainer of two R Shiny dashboards with downloadable data, interactive visualizations, focus group and interview themes, and a map that allows users to identify opportunities for collaboration or resource sharing. Introduced improved collaborative infrastructure and version control with GitHub. Maintains meticulous documentation on assessment methods, data interpretation guidelines, and code scripts. Presents assessment results and facilitates data-related activities at in-person and virtual meetings.
+
+### Strengthening Foundational Capabilities in NC
+
+Serves as lead technical advisor for team identifying and analyzing secondary data indicators to monitor the state of [Foundational Capabilities](https://phaboard.org/infrastructure/public-health-frameworks/the-foundational-public-health-services/) in NC. Developed and maintains reproducible analytics workflow that facilitates smooth data integration and automated data analysis and visualization.
+
+[![Snippet of the 2025 NCFC Assessment Executive Summary.](images/emerging-consistent.png)](https://sph.unc.edu/wp-content/uploads/sites/112/2025/07/NCFC-2025-executive-summary-remediated.pdf)
+
+## Tools Used
+
+-   R
+
+-   R Shiny
+
+-   Quarto
+
+-   GitHub
+
+-   R Markdown
+
+-   Canva
+
+## Highlights
+
+-   📒 [North Carolina Foundational Capabilities Executive Summary (2025)](https://sph.unc.edu/wp-content/uploads/sites/112/2025/07/NCFC-2025-executive-summary-remediated.pdf){.uri}
+
+-   💻 [Strengthening Foundational Capabilities Initiatives](https://sph.unc.edu/nciph/public-health-infrastructure-grant-phig/){.uri}

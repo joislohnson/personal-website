@@ -1,0 +1,30 @@
+---
+title: "HBCU Health Equity Data Consortium"
+subtitle: "2023-2025"
+description: " "
+format: html
+---
+
+## Role & Contributions
+
+Formed and facilitated a Data Analysis Workgroup with faculty and students from 10 universities across NC. Provided technical assistance and capacity building support for the COVID-19 Impact Survey, including survey administration, data monitoring, wrangling, analysis, visualization, and dissemination.
+
+![In-person meeting at NC A&T on January 25, 2024.](hbcu-hedc-pic.png){fig-alt="Members of the consortium gathered at in-person meeting."}
+
+## Tools Used
+
+-   R
+
+-   R Shiny
+
+-   R Markdown
+
+-   Quarto
+
+## Highlights
+
+-   [📰 NCIPH Provides Technical Assistance to HBCU Data Consortium](https://sph.unc.edu/hbcu-health-equity-data-consortium/)
+
+-   [🎤 Using R to Co-Create an Inclusive Data Analysis Approach with the HBCU Health Equity Data Consortium](https://www.youtube.com/watch?v=77gPAh9Jj18)
+
+-   [✍️ Co-Creating Inclusive Data Analysis Approaches](https://loisaj.com/posts/2025-01-15-hbcu-hedc/)

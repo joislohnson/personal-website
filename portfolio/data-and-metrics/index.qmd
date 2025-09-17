@@ -1,0 +1,24 @@
+---
+title: "Community Data and Learning Cohort"
+subtitle: "2023-2025"
+description: " "
+format: html
+---
+
+## Role & Contributions
+
+Provided direct technical assistance to four community-based organizations across NC, building partner capacity in data collection, data analysis, data visualization, and data dissemination. Developed and delivered interactive workshops on how to assess and address data bias and how to tailor data to key audiences.
+
+![Visioning activity during cohort kick-off event in October 2024.](images/kickoff.jpeg)
+
+## Tools Used
+
+-   R
+
+-   Excel
+
+-   Canva
+
+## Highlights
+
+-   [📰 Community Data and Learning Cohort](https://sph.unc.edu/nciph/community-data-and-learning-cohort/){.uri}

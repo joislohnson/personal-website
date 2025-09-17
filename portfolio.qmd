@@ -1,0 +1,8 @@
+---
+title: "Portfolio"
+listing: 
+  contents: portfolio
+  type: grid
+---
+
+Click the tiles below to learn more about key projects I've contributed to over the past few years.

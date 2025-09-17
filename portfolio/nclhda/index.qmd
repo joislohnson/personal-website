@@ -1,0 +1,43 @@
+---
+title: "NC Local Health Department Accreditation"
+subtitle: "2024-2025"
+description: " "
+image: "images/process-sat.png"
+format: html
+---
+
+## Role & Contributions
+
+### Site Visit Data
+
+Automated reporting for 15+ site visit indicators by transforming and joining 9 unique datasets. Maintains detailed documentation of process and methods, including diagrams, indicator catalogs, data dictionaries, and reproducible R code.
+
+### Annual Survey
+
+Developed reproducible analysis pipeline for NCLHDA's Annual Survey, migrating data cleaning, analysis, and visualization from Stata and Tableau to R and Quarto.
+
+------------------------------------------------------------------------
+
+*Snippet from the 2025 NCLHDA Annual Survey Report*
+
+::: column-body-outset
+```{=html}
+<iframe style="transform: scale(0.9)" width="100%" height="600" margin="0" padding="0" src="process-sat.html" title="Snippet from the 2025 NCLHDA Annual Survey Report"></iframe>
+```
+:::
+
+## Tools Used
+
+-   R
+
+-   Quarto
+
+-   Stata
+
+-   Tableau
+
+## Highlights
+
+-   [📒 NCLHDA Annual Survey Results: 2025](https://nciph.sph.unc.edu/accred-files/Annual%20Survey%20Report/Accred-2025-Survey-Report.html){.uri}
+
+-   [📒 NCLHDA Annual Survey Results: 2024](https://nciph.sph.unc.edu/accred-files/Annual%20Survey%20Report/Accred-2024-Survey-Report_V2.html){.uri}

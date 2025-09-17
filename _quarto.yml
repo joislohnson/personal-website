@@ -13,11 +13,14 @@ website:
       - text: "Resume/CV"
         href: resume-cv.qmd
       - text: "Portfolio"
+        href: portfolio.qmd
+      - text: "Blog"
         href: posts.qmd
       - text: "Makes"
         href: makes.qmd
       - text: "Resources"
         href: resources.qmd
+
     right:
       - text: "{{< iconify mdi:linkedin >}}"
         href: https://www.linkedin.com/in/loisaj/
